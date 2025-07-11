@@ -8,86 +8,71 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var username: String = ""
-    @State private var isLoggedIn = false
+    @State private var email = ""
+    @State private var password = ""
 
     var body: some View {
-        NavigationView {
-            if isLoggedIn {
-                // Ana Menü
-                VStack(spacing: 40) {
-                    Text("🃏 Kart Oyunu")
-                        .font(.largeTitle)
-                        .bold()
-                        .padding()
+        ZStack {
+            // Resimli arkaplan
+            Image("arkaplan")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
 
-                    Text("Hoş geldin, \(username)!")
-                        .font(.title2)
-                        .foregroundColor(.gray)
+            // Arkaplan üstü şeffaf renk efekti 
+            Color.black.opacity(0.3)
+                .ignoresSafeArea()
 
-                    NavigationLink(destination: Text("🎮 Oyun Ekranı")) {
-                        Text("🎮 Oyuna Başla")
-                            .font(.title2)
-                            .frame(width: 220, height: 50)
-                            .background(Color.blue)
-                            .foregroundColor(.white)
-                            .cornerRadius(12)
-                    }
-
-                    NavigationLink(destination: Text("📜 Kurallar:\nKart çek, eşleş, kazan!").padding()) {
-                        Text("📜 Kurallar")
-                            .font(.title2)
-                            .frame(width: 220, height: 50)
-                            .background(Color.green)
-                            .foregroundColor(.white)
-                            .cornerRadius(12)
-                    }
-
-                    Button(action: {
-                        exit(0)
-                    }) {
-                        Text("🚪 Çıkış")
-                            .font(.title2)
-                            .frame(width: 220, height: 50)
-                            .background(Color.red)
-                            .foregroundColor(.white)
-                            .cornerRadius(12)
-                    }
-
-                    Spacer()
-                }
-                .navigationTitle("Ana Menü")
-            } else {
-                // Kullanıcı Girişi
-                VStack(spacing: 30) {
-                    Text("🃏 Kart Oyunu")
-                        .font(.largeTitle)
-                        .bold()
-                        .padding()
-
-                    TextField("Adınızı girin", text: $username)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
-                        .padding(.horizontal, 40)
-
-                    Button("Giriş Yap") {
-                        if !username.isEmpty {
-                            isLoggedIn = true
-                        }
-                    }
-                    .font(.title2)
-                    .frame(width: 220, height: 50)
-                    .background(Color.blue)
+            VStack(spacing: 30) {
+                Text("🦁 Kart Oyunu 🐘")
+                    .font(.system(size: 40, weight: .bold, design: .rounded))
                     .foregroundColor(.white)
-                    .cornerRadius(12)
 
-                    Spacer()
+                TextField("Email", text: $email)
+                    .padding()
+                    .background(Color.white.opacity(0.9))
+                    .cornerRadius(12)
+                    .frame(width: 300)
+                    .font(.title2)
+
+                SecureField("Şifre", text: $password)
+                    .padding()
+                    .background(Color.white.opacity(0.9))
+                    .cornerRadius(12)
+                    .frame(width: 300)
+                    .font(.title2)
+
+                Button(action: {
+                    print("Email: \(email), Şifre: \(password)")
+                }) {
+                    Text("🎮 Sing Up")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .frame(width: 250)
+                        .background(Color.pink)
+                        .cornerRadius(15)
                 }
-                .navigationTitle("Giriş Yap")
+
+                Button {
+                    //login
+                } label: {
+                    Text("Already have an account? Log in")
+                        .bold()
+                        .foregroundStyle(.white)
+                        
+                }
+                
+                Spacer()
             }
+            .padding(.top, 60)
         }
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
+
