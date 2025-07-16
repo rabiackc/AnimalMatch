@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1AC7B3B2D3F97BD256C703B9 /* Pods_AnimalMatchGame_AnimalMatchGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784CD6985BCE75DC0C9155EE /* Pods_AnimalMatchGame_AnimalMatchGameUITests.framework */; };
+		2D0715F92E250FA300464607 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0715F82E250FA300464607 /* FirebaseAuth */; };
+		2D0715FB2E250FA900464607 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0715FA2E250FA900464607 /* FirebaseCore */; };
+		2D0715FD2E250FC000464607 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0715FC2E250FC000464607 /* FirebaseFirestore */; };
+		2D0715FF2E250FC900464607 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2D0715FE2E250FC900464607 /* FirebaseStorage */; };
+		2D8FC6282E25367600B75A5C /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2D8FC6272E25367600B75A5C /* FirebaseAnalytics */; };
+		615DB9261A6CB390DBCBD0DB /* Pods_AnimalMatchGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FBA990BE324B1132DABDB9 /* Pods_AnimalMatchGameTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2D4201BD2E1D244B00201ECD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +34,735 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D173BCA2E25064D004FD753 /* firebase-ios-sdk-11.15.0 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "firebase-ios-sdk-11.15.0"; path = "../../Downloads/firebase-ios-sdk-11.15.0"; sourceTree = "<group>"; };
+		2D173BCB2E25065C004FD753 /* Firebase-11.15.0-latest.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Firebase-11.15.0-latest.zip"; sourceTree = "<group>"; };
+		2D173BCD2E25065C004FD753 /* abseil-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-appletvos.txt"; sourceTree = "<group>"; };
+		2D173BCE2E25065C004FD753 /* abseil-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173BCF2E25065C004FD753 /* abseil-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-catalyst.txt"; sourceTree = "<group>"; };
+		2D173BD02E25065C004FD753 /* abseil-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173BD12E25065C004FD753 /* abseil-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173BD22E25065C004FD753 /* abseil-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-macosx.txt"; sourceTree = "<group>"; };
+		2D173BD32E25065C004FD753 /* AppAuth-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppAuth-catalyst.txt"; sourceTree = "<group>"; };
+		2D173BD42E25065C004FD753 /* AppAuth-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppAuth-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173BD52E25065C004FD753 /* AppAuth-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppAuth-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173BD62E25065C004FD753 /* AppCheckCore-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-appletvos.txt"; sourceTree = "<group>"; };
+		2D173BD72E25065C004FD753 /* AppCheckCore-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173BD82E25065C004FD753 /* AppCheckCore-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-catalyst.txt"; sourceTree = "<group>"; };
+		2D173BD92E25065C004FD753 /* AppCheckCore-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173BDA2E25065C004FD753 /* AppCheckCore-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173BDB2E25065C004FD753 /* AppCheckCore-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-macosx.txt"; sourceTree = "<group>"; };
+		2D173BDC2E25065C004FD753 /* AppCheckCore-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-watchos.txt"; sourceTree = "<group>"; };
+		2D173BDD2E25065C004FD753 /* AppCheckCore-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173BDE2E25065C004FD753 /* BoringSSL-GRPC-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-appletvos.txt"; sourceTree = "<group>"; };
+		2D173BDF2E25065C004FD753 /* BoringSSL-GRPC-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173BE02E25065C004FD753 /* BoringSSL-GRPC-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-catalyst.txt"; sourceTree = "<group>"; };
+		2D173BE12E25065C004FD753 /* BoringSSL-GRPC-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173BE22E25065C004FD753 /* BoringSSL-GRPC-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173BE32E25065C004FD753 /* BoringSSL-GRPC-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-macosx.txt"; sourceTree = "<group>"; };
+		2D173BE42E25065C004FD753 /* FirebaseABTesting-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-appletvos.txt"; sourceTree = "<group>"; };
+		2D173BE52E25065C004FD753 /* FirebaseABTesting-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173BE62E25065C004FD753 /* FirebaseABTesting-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-catalyst.txt"; sourceTree = "<group>"; };
+		2D173BE72E25065C004FD753 /* FirebaseABTesting-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173BE82E25065C004FD753 /* FirebaseABTesting-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173BE92E25065C004FD753 /* FirebaseABTesting-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-macosx.txt"; sourceTree = "<group>"; };
+		2D173BEA2E25065C004FD753 /* FirebaseABTesting-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-watchos.txt"; sourceTree = "<group>"; };
+		2D173BEB2E25065C004FD753 /* FirebaseABTesting-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173BEC2E25065C004FD753 /* FirebaseAI-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-appletvos.txt"; sourceTree = "<group>"; };
+		2D173BED2E25065C004FD753 /* FirebaseAI-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173BEE2E25065C004FD753 /* FirebaseAI-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-catalyst.txt"; sourceTree = "<group>"; };
+		2D173BEF2E25065C004FD753 /* FirebaseAI-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173BF02E25065C004FD753 /* FirebaseAI-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173BF12E25065C004FD753 /* FirebaseAI-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-macosx.txt"; sourceTree = "<group>"; };
+		2D173BF22E25065C004FD753 /* FirebaseAI-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-watchos.txt"; sourceTree = "<group>"; };
+		2D173BF32E25065C004FD753 /* FirebaseAI-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173BF42E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversion-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAnalyticsOnDeviceConversion-catalyst.txt"; sourceTree = "<group>"; };
+		2D173BF52E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversion-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAnalyticsOnDeviceConversion-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173BF62E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversion-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAnalyticsOnDeviceConversion-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173BF72E25065C004FD753 /* FirebaseAppCheck-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-appletvos.txt"; sourceTree = "<group>"; };
+		2D173BF82E25065C004FD753 /* FirebaseAppCheck-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173BF92E25065C004FD753 /* FirebaseAppCheck-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-catalyst.txt"; sourceTree = "<group>"; };
+		2D173BFA2E25065C004FD753 /* FirebaseAppCheck-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173BFB2E25065C004FD753 /* FirebaseAppCheck-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173BFC2E25065C004FD753 /* FirebaseAppCheck-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-macosx.txt"; sourceTree = "<group>"; };
+		2D173BFD2E25065C004FD753 /* FirebaseAppCheck-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-watchos.txt"; sourceTree = "<group>"; };
+		2D173BFE2E25065C004FD753 /* FirebaseAppCheck-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173BFF2E25065C004FD753 /* FirebaseAppCheckInterop-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C002E25065C004FD753 /* FirebaseAppCheckInterop-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C012E25065C004FD753 /* FirebaseAppCheckInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C022E25065C004FD753 /* FirebaseAppCheckInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C032E25065C004FD753 /* FirebaseAppCheckInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C042E25065C004FD753 /* FirebaseAppCheckInterop-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-macosx.txt"; sourceTree = "<group>"; };
+		2D173C052E25065C004FD753 /* FirebaseAppCheckInterop-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-watchos.txt"; sourceTree = "<group>"; };
+		2D173C062E25065C004FD753 /* FirebaseAppCheckInterop-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C072E25065C004FD753 /* FirebaseAppDistribution-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppDistribution-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C082E25065C004FD753 /* FirebaseAppDistribution-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppDistribution-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C092E25065C004FD753 /* FirebaseAppDistribution-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppDistribution-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C0A2E25065C004FD753 /* FirebaseAuth-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C0B2E25065C004FD753 /* FirebaseAuth-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C0C2E25065C004FD753 /* FirebaseAuth-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C0D2E25065C004FD753 /* FirebaseAuth-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C0E2E25065C004FD753 /* FirebaseAuth-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C0F2E25065C004FD753 /* FirebaseAuth-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-macosx.txt"; sourceTree = "<group>"; };
+		2D173C102E25065C004FD753 /* FirebaseAuth-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-watchos.txt"; sourceTree = "<group>"; };
+		2D173C112E25065C004FD753 /* FirebaseAuth-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C122E25065C004FD753 /* FirebaseAuthInterop-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C132E25065C004FD753 /* FirebaseAuthInterop-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C142E25065C004FD753 /* FirebaseAuthInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C152E25065C004FD753 /* FirebaseAuthInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C162E25065C004FD753 /* FirebaseAuthInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C172E25065C004FD753 /* FirebaseAuthInterop-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-macosx.txt"; sourceTree = "<group>"; };
+		2D173C182E25065C004FD753 /* FirebaseAuthInterop-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-watchos.txt"; sourceTree = "<group>"; };
+		2D173C192E25065C004FD753 /* FirebaseAuthInterop-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C1A2E25065C004FD753 /* FirebaseCore-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C1B2E25065C004FD753 /* FirebaseCore-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C1C2E25065C004FD753 /* FirebaseCore-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C1D2E25065C004FD753 /* FirebaseCore-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C1E2E25065C004FD753 /* FirebaseCore-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C1F2E25065C004FD753 /* FirebaseCore-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-macosx.txt"; sourceTree = "<group>"; };
+		2D173C202E25065C004FD753 /* FirebaseCore-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-watchos.txt"; sourceTree = "<group>"; };
+		2D173C212E25065C004FD753 /* FirebaseCore-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C222E25065C004FD753 /* FirebaseCoreExtension-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C232E25065C004FD753 /* FirebaseCoreExtension-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C242E25065C004FD753 /* FirebaseCoreExtension-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C252E25065C004FD753 /* FirebaseCoreExtension-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C262E25065C004FD753 /* FirebaseCoreExtension-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C272E25065C004FD753 /* FirebaseCoreExtension-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-macosx.txt"; sourceTree = "<group>"; };
+		2D173C282E25065C004FD753 /* FirebaseCoreExtension-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-watchos.txt"; sourceTree = "<group>"; };
+		2D173C292E25065C004FD753 /* FirebaseCoreExtension-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C2A2E25065C004FD753 /* FirebaseCoreInternal-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C2B2E25065C004FD753 /* FirebaseCoreInternal-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C2C2E25065C004FD753 /* FirebaseCoreInternal-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C2D2E25065C004FD753 /* FirebaseCoreInternal-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C2E2E25065C004FD753 /* FirebaseCoreInternal-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C2F2E25065C004FD753 /* FirebaseCoreInternal-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-macosx.txt"; sourceTree = "<group>"; };
+		2D173C302E25065C004FD753 /* FirebaseCoreInternal-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-watchos.txt"; sourceTree = "<group>"; };
+		2D173C312E25065C004FD753 /* FirebaseCoreInternal-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C322E25065C004FD753 /* FirebaseCrashlytics-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C332E25065C004FD753 /* FirebaseCrashlytics-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C342E25065C004FD753 /* FirebaseCrashlytics-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C352E25065C004FD753 /* FirebaseCrashlytics-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C362E25065C004FD753 /* FirebaseCrashlytics-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C372E25065C004FD753 /* FirebaseCrashlytics-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-macosx.txt"; sourceTree = "<group>"; };
+		2D173C382E25065C004FD753 /* FirebaseCrashlytics-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-watchos.txt"; sourceTree = "<group>"; };
+		2D173C392E25065C004FD753 /* FirebaseCrashlytics-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C3A2E25065C004FD753 /* FirebaseDatabase-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C3B2E25065C004FD753 /* FirebaseDatabase-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C3C2E25065C004FD753 /* FirebaseDatabase-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C3D2E25065C004FD753 /* FirebaseDatabase-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C3E2E25065C004FD753 /* FirebaseDatabase-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C3F2E25065C004FD753 /* FirebaseDatabase-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-macosx.txt"; sourceTree = "<group>"; };
+		2D173C402E25065C004FD753 /* FirebaseDynamicLinks-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDynamicLinks-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C412E25065C004FD753 /* FirebaseDynamicLinks-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDynamicLinks-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C422E25065C004FD753 /* FirebaseDynamicLinks-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDynamicLinks-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C432E25065C004FD753 /* FirebaseFirestore-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C442E25065C004FD753 /* FirebaseFirestore-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C452E25065C004FD753 /* FirebaseFirestore-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C462E25065C004FD753 /* FirebaseFirestore-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C472E25065C004FD753 /* FirebaseFirestore-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C482E25065C004FD753 /* FirebaseFirestore-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-macosx.txt"; sourceTree = "<group>"; };
+		2D173C492E25065C004FD753 /* FirebaseFirestoreInternal-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C4A2E25065C004FD753 /* FirebaseFirestoreInternal-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C4B2E25065C004FD753 /* FirebaseFirestoreInternal-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C4C2E25065C004FD753 /* FirebaseFirestoreInternal-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C4D2E25065C004FD753 /* FirebaseFirestoreInternal-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C4E2E25065C004FD753 /* FirebaseFirestoreInternal-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-macosx.txt"; sourceTree = "<group>"; };
+		2D173C4F2E25065C004FD753 /* FirebaseFunctions-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C502E25065C004FD753 /* FirebaseFunctions-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C512E25065C004FD753 /* FirebaseFunctions-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C522E25065C004FD753 /* FirebaseFunctions-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C532E25065C004FD753 /* FirebaseFunctions-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C542E25065C004FD753 /* FirebaseFunctions-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-macosx.txt"; sourceTree = "<group>"; };
+		2D173C552E25065C004FD753 /* FirebaseFunctions-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-watchos.txt"; sourceTree = "<group>"; };
+		2D173C562E25065C004FD753 /* FirebaseFunctions-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C572E25065C004FD753 /* FirebaseInAppMessaging-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInAppMessaging-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C582E25065C004FD753 /* FirebaseInAppMessaging-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInAppMessaging-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C592E25065C004FD753 /* FirebaseInAppMessaging-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInAppMessaging-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C5A2E25065C004FD753 /* FirebaseInstallations-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C5B2E25065C004FD753 /* FirebaseInstallations-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C5C2E25065C004FD753 /* FirebaseInstallations-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C5D2E25065C004FD753 /* FirebaseInstallations-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C5E2E25065C004FD753 /* FirebaseInstallations-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C5F2E25065C004FD753 /* FirebaseInstallations-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-macosx.txt"; sourceTree = "<group>"; };
+		2D173C602E25065C004FD753 /* FirebaseInstallations-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-watchos.txt"; sourceTree = "<group>"; };
+		2D173C612E25065C004FD753 /* FirebaseInstallations-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C622E25065C004FD753 /* FirebaseMessaging-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C632E25065C004FD753 /* FirebaseMessaging-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C642E25065C004FD753 /* FirebaseMessaging-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C652E25065C004FD753 /* FirebaseMessaging-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C662E25065C004FD753 /* FirebaseMessaging-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C672E25065C004FD753 /* FirebaseMessaging-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-macosx.txt"; sourceTree = "<group>"; };
+		2D173C682E25065C004FD753 /* FirebaseMessaging-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-watchos.txt"; sourceTree = "<group>"; };
+		2D173C692E25065C004FD753 /* FirebaseMessaging-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C6A2E25065C004FD753 /* FirebaseMessagingInterop-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C6B2E25065C004FD753 /* FirebaseMessagingInterop-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C6C2E25065C004FD753 /* FirebaseMessagingInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C6D2E25065C004FD753 /* FirebaseMessagingInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C6E2E25065C004FD753 /* FirebaseMessagingInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C6F2E25065C004FD753 /* FirebaseMessagingInterop-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-macosx.txt"; sourceTree = "<group>"; };
+		2D173C702E25065C004FD753 /* FirebaseMessagingInterop-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-watchos.txt"; sourceTree = "<group>"; };
+		2D173C712E25065C004FD753 /* FirebaseMessagingInterop-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C722E25065C004FD753 /* FirebaseMLModelDownloader-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C732E25065C004FD753 /* FirebaseMLModelDownloader-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C742E25065C004FD753 /* FirebaseMLModelDownloader-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C752E25065C004FD753 /* FirebaseMLModelDownloader-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C762E25065C004FD753 /* FirebaseMLModelDownloader-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C772E25065C004FD753 /* FirebaseMLModelDownloader-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-macosx.txt"; sourceTree = "<group>"; };
+		2D173C782E25065C004FD753 /* FirebaseMLModelDownloader-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-watchos.txt"; sourceTree = "<group>"; };
+		2D173C792E25065C004FD753 /* FirebaseMLModelDownloader-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C7A2E25065C004FD753 /* FirebasePerformance-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C7B2E25065C004FD753 /* FirebasePerformance-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C7C2E25065C004FD753 /* FirebasePerformance-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C7D2E25065C004FD753 /* FirebasePerformance-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C7E2E25065C004FD753 /* FirebasePerformance-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C7F2E25065C004FD753 /* FirebaseRemoteConfig-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C802E25065C004FD753 /* FirebaseRemoteConfig-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C812E25065C004FD753 /* FirebaseRemoteConfig-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C822E25065C004FD753 /* FirebaseRemoteConfig-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C832E25065C004FD753 /* FirebaseRemoteConfig-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C842E25065C004FD753 /* FirebaseRemoteConfig-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-macosx.txt"; sourceTree = "<group>"; };
+		2D173C852E25065C004FD753 /* FirebaseRemoteConfig-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-watchos.txt"; sourceTree = "<group>"; };
+		2D173C862E25065C004FD753 /* FirebaseRemoteConfig-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C872E25065C004FD753 /* FirebaseRemoteConfigInterop-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C882E25065C004FD753 /* FirebaseRemoteConfigInterop-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C892E25065C004FD753 /* FirebaseRemoteConfigInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C8A2E25065C004FD753 /* FirebaseRemoteConfigInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C8B2E25065C004FD753 /* FirebaseRemoteConfigInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C8C2E25065C004FD753 /* FirebaseRemoteConfigInterop-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-macosx.txt"; sourceTree = "<group>"; };
+		2D173C8D2E25065C004FD753 /* FirebaseRemoteConfigInterop-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-watchos.txt"; sourceTree = "<group>"; };
+		2D173C8E2E25065C004FD753 /* FirebaseRemoteConfigInterop-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C8F2E25065C004FD753 /* FirebaseSessions-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C902E25065C004FD753 /* FirebaseSessions-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C912E25065C004FD753 /* FirebaseSessions-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C922E25065C004FD753 /* FirebaseSessions-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C932E25065C004FD753 /* FirebaseSessions-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C942E25065C004FD753 /* FirebaseSessions-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-macosx.txt"; sourceTree = "<group>"; };
+		2D173C952E25065C004FD753 /* FirebaseSessions-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-watchos.txt"; sourceTree = "<group>"; };
+		2D173C962E25065C004FD753 /* FirebaseSessions-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C972E25065C004FD753 /* FirebaseSharedSwift-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-appletvos.txt"; sourceTree = "<group>"; };
+		2D173C982E25065C004FD753 /* FirebaseSharedSwift-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173C992E25065C004FD753 /* FirebaseSharedSwift-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-catalyst.txt"; sourceTree = "<group>"; };
+		2D173C9A2E25065C004FD753 /* FirebaseSharedSwift-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173C9B2E25065C004FD753 /* FirebaseSharedSwift-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173C9C2E25065C004FD753 /* FirebaseSharedSwift-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-macosx.txt"; sourceTree = "<group>"; };
+		2D173C9D2E25065C004FD753 /* FirebaseSharedSwift-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-watchos.txt"; sourceTree = "<group>"; };
+		2D173C9E2E25065C004FD753 /* FirebaseSharedSwift-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173C9F2E25065C004FD753 /* FirebaseStorage-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CA02E25065C004FD753 /* FirebaseStorage-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CA12E25065C004FD753 /* FirebaseStorage-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CA22E25065C004FD753 /* FirebaseStorage-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CA32E25065C004FD753 /* FirebaseStorage-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CA42E25065C004FD753 /* FirebaseStorage-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-macosx.txt"; sourceTree = "<group>"; };
+		2D173CA52E25065C004FD753 /* FirebaseStorage-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-watchos.txt"; sourceTree = "<group>"; };
+		2D173CA62E25065C004FD753 /* FirebaseStorage-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173CA72E25065C004FD753 /* FirebaseVertexAI-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CA82E25065C004FD753 /* FirebaseVertexAI-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CA92E25065C004FD753 /* FirebaseVertexAI-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CAA2E25065C004FD753 /* FirebaseVertexAI-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CAB2E25065C004FD753 /* FirebaseVertexAI-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CAC2E25065C004FD753 /* FirebaseVertexAI-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-macosx.txt"; sourceTree = "<group>"; };
+		2D173CAD2E25065C004FD753 /* FirebaseVertexAI-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-watchos.txt"; sourceTree = "<group>"; };
+		2D173CAE2E25065C004FD753 /* FirebaseVertexAI-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173CAF2E25065C004FD753 /* GoogleDataTransport-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CB02E25065C004FD753 /* GoogleDataTransport-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CB12E25065C004FD753 /* GoogleDataTransport-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CB22E25065C004FD753 /* GoogleDataTransport-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CB32E25065C004FD753 /* GoogleDataTransport-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CB42E25065C004FD753 /* GoogleDataTransport-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-macosx.txt"; sourceTree = "<group>"; };
+		2D173CB52E25065C004FD753 /* GoogleDataTransport-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-watchos.txt"; sourceTree = "<group>"; };
+		2D173CB62E25065C004FD753 /* GoogleDataTransport-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173CB72E25065C004FD753 /* GoogleSignIn-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleSignIn-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CB82E25065C004FD753 /* GoogleSignIn-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleSignIn-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CB92E25065C004FD753 /* GoogleSignIn-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleSignIn-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CBA2E25065C004FD753 /* GoogleUtilities-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CBB2E25065C004FD753 /* GoogleUtilities-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CBC2E25065C004FD753 /* GoogleUtilities-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CBD2E25065C004FD753 /* GoogleUtilities-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CBE2E25065C004FD753 /* GoogleUtilities-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CBF2E25065C004FD753 /* GoogleUtilities-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-macosx.txt"; sourceTree = "<group>"; };
+		2D173CC02E25065C004FD753 /* GoogleUtilities-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-watchos.txt"; sourceTree = "<group>"; };
+		2D173CC12E25065C004FD753 /* GoogleUtilities-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173CC22E25065C004FD753 /* gRPC-C++-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CC32E25065C004FD753 /* gRPC-C++-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CC42E25065C004FD753 /* gRPC-C++-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CC52E25065C004FD753 /* gRPC-C++-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CC62E25065C004FD753 /* gRPC-C++-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CC72E25065C004FD753 /* gRPC-C++-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-macosx.txt"; sourceTree = "<group>"; };
+		2D173CC82E25065C004FD753 /* gRPC-Core-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CC92E25065C004FD753 /* gRPC-Core-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CCA2E25065C004FD753 /* gRPC-Core-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CCB2E25065C004FD753 /* gRPC-Core-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CCC2E25065C004FD753 /* gRPC-Core-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CCD2E25065C004FD753 /* gRPC-Core-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-macosx.txt"; sourceTree = "<group>"; };
+		2D173CCE2E25065C004FD753 /* GTMAppAuth-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMAppAuth-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CCF2E25065C004FD753 /* GTMAppAuth-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMAppAuth-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CD02E25065C004FD753 /* GTMAppAuth-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMAppAuth-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CD12E25065C004FD753 /* GTMSessionFetcher-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CD22E25065C004FD753 /* GTMSessionFetcher-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CD32E25065C004FD753 /* GTMSessionFetcher-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CD42E25065C004FD753 /* GTMSessionFetcher-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CD52E25065C004FD753 /* GTMSessionFetcher-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CD62E25065C004FD753 /* GTMSessionFetcher-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-macosx.txt"; sourceTree = "<group>"; };
+		2D173CD72E25065C004FD753 /* GTMSessionFetcher-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-watchos.txt"; sourceTree = "<group>"; };
+		2D173CD82E25065C004FD753 /* GTMSessionFetcher-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173CD92E25065C004FD753 /* leveldb-library-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CDA2E25065C004FD753 /* leveldb-library-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CDB2E25065C004FD753 /* leveldb-library-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CDC2E25065C004FD753 /* leveldb-library-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CDD2E25065C004FD753 /* leveldb-library-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CDE2E25065C004FD753 /* leveldb-library-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-macosx.txt"; sourceTree = "<group>"; };
+		2D173CDF2E25065C004FD753 /* nanopb-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CE02E25065C004FD753 /* nanopb-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CE12E25065C004FD753 /* nanopb-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CE22E25065C004FD753 /* nanopb-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CE32E25065C004FD753 /* nanopb-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CE42E25065C004FD753 /* nanopb-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-macosx.txt"; sourceTree = "<group>"; };
+		2D173CE52E25065C004FD753 /* nanopb-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-watchos.txt"; sourceTree = "<group>"; };
+		2D173CE62E25065C004FD753 /* nanopb-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173CE72E25065C004FD753 /* PromisesObjC-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CE82E25065C004FD753 /* PromisesObjC-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CE92E25065C004FD753 /* PromisesObjC-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CEA2E25065C004FD753 /* PromisesObjC-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CEB2E25065C004FD753 /* PromisesObjC-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CEC2E25065C004FD753 /* PromisesObjC-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-macosx.txt"; sourceTree = "<group>"; };
+		2D173CED2E25065C004FD753 /* PromisesObjC-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-watchos.txt"; sourceTree = "<group>"; };
+		2D173CEE2E25065C004FD753 /* PromisesObjC-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173CEF2E25065C004FD753 /* PromisesSwift-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CF02E25065C004FD753 /* PromisesSwift-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CF12E25065C004FD753 /* PromisesSwift-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CF22E25065C004FD753 /* PromisesSwift-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CF32E25065C004FD753 /* PromisesSwift-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CF42E25065C004FD753 /* PromisesSwift-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-macosx.txt"; sourceTree = "<group>"; };
+		2D173CF52E25065C004FD753 /* PromisesSwift-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-watchos.txt"; sourceTree = "<group>"; };
+		2D173CF62E25065C004FD753 /* PromisesSwift-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173CF72E25065C004FD753 /* RecaptchaInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RecaptchaInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CF82E25065C004FD753 /* RecaptchaInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RecaptchaInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CF92E25065C004FD753 /* RecaptchaInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RecaptchaInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CFA2E25065C004FD753 /* SwiftProtobuf-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-appletvos.txt"; sourceTree = "<group>"; };
+		2D173CFB2E25065C004FD753 /* SwiftProtobuf-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173CFC2E25065C004FD753 /* SwiftProtobuf-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-catalyst.txt"; sourceTree = "<group>"; };
+		2D173CFD2E25065C004FD753 /* SwiftProtobuf-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173CFE2E25065C004FD753 /* SwiftProtobuf-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173CFF2E25065C004FD753 /* SwiftProtobuf-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-macosx.txt"; sourceTree = "<group>"; };
+		2D173D002E25065C004FD753 /* SwiftProtobuf-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-watchos.txt"; sourceTree = "<group>"; };
+		2D173D012E25065C004FD753 /* SwiftProtobuf-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D032E25065C004FD753 /* FirebaseABTesting-7257632ed78c5c4c.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseABTesting-7257632ed78c5c4c.zip"; sourceTree = "<group>"; };
+		2D173D042E25065C004FD753 /* FirebaseABTestingBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseABTestingBinary.json; sourceTree = "<group>"; };
+		2D173D052E25065C004FD753 /* FirebaseAdMobBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAdMobBinary.json; sourceTree = "<group>"; };
+		2D173D062E25065C004FD753 /* FirebaseAI-ba1237ee5b7a5baa.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAI-ba1237ee5b7a5baa.zip"; sourceTree = "<group>"; };
+		2D173D072E25065C004FD753 /* FirebaseAIBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAIBinary.json; sourceTree = "<group>"; };
+		2D173D082E25065C004FD753 /* FirebaseAnalytics-9a411c918346c8ea.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAnalytics-9a411c918346c8ea.zip"; sourceTree = "<group>"; };
+		2D173D092E25065C004FD753 /* FirebaseAnalyticsBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAnalyticsBinary.json; sourceTree = "<group>"; };
+		2D173D0A2E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversion-f03a6283e3772033.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAnalyticsOnDeviceConversion-f03a6283e3772033.zip"; sourceTree = "<group>"; };
+		2D173D0B2E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversionBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAnalyticsOnDeviceConversionBinary.json; sourceTree = "<group>"; };
+		2D173D0C2E25065C004FD753 /* FirebaseAppCheck-b0eff608f83f7797.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAppCheck-b0eff608f83f7797.zip"; sourceTree = "<group>"; };
+		2D173D0D2E25065C004FD753 /* FirebaseAppCheckBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAppCheckBinary.json; sourceTree = "<group>"; };
+		2D173D0E2E25065C004FD753 /* FirebaseAppDistribution-4a78ab72ee174613.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAppDistribution-4a78ab72ee174613.zip"; sourceTree = "<group>"; };
+		2D173D0F2E25065C004FD753 /* FirebaseAppDistributionBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAppDistributionBinary.json; sourceTree = "<group>"; };
+		2D173D102E25065C004FD753 /* FirebaseAuth-d6d3264758ea5270.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAuth-d6d3264758ea5270.zip"; sourceTree = "<group>"; };
+		2D173D112E25065C004FD753 /* FirebaseAuthBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAuthBinary.json; sourceTree = "<group>"; };
+		2D173D122E25065C004FD753 /* FirebaseCrashlytics-6c0391d0cb3de2ad.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseCrashlytics-6c0391d0cb3de2ad.zip"; sourceTree = "<group>"; };
+		2D173D132E25065C004FD753 /* FirebaseCrashlyticsBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseCrashlyticsBinary.json; sourceTree = "<group>"; };
+		2D173D142E25065C004FD753 /* FirebaseDatabase-d0e4e892d5ecbffb.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseDatabase-d0e4e892d5ecbffb.zip"; sourceTree = "<group>"; };
+		2D173D152E25065C004FD753 /* FirebaseDatabaseBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseDatabaseBinary.json; sourceTree = "<group>"; };
+		2D173D162E25065C004FD753 /* FirebaseDynamicLinks-e46c284d68552c13.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseDynamicLinks-e46c284d68552c13.zip"; sourceTree = "<group>"; };
+		2D173D172E25065C004FD753 /* FirebaseDynamicLinksBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseDynamicLinksBinary.json; sourceTree = "<group>"; };
+		2D173D182E25065C004FD753 /* FirebaseFirestore-f374bf8c4f273d0d.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseFirestore-f374bf8c4f273d0d.zip"; sourceTree = "<group>"; };
+		2D173D192E25065C004FD753 /* FirebaseFirestoreBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseFirestoreBinary.json; sourceTree = "<group>"; };
+		2D173D1A2E25065C004FD753 /* FirebaseFunctions-74f3deb4b5a5bb48.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseFunctions-74f3deb4b5a5bb48.zip"; sourceTree = "<group>"; };
+		2D173D1B2E25065C004FD753 /* FirebaseFunctionsBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseFunctionsBinary.json; sourceTree = "<group>"; };
+		2D173D1C2E25065C004FD753 /* FirebaseGoogleSignInBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseGoogleSignInBinary.json; sourceTree = "<group>"; };
+		2D173D1D2E25065C004FD753 /* FirebaseInAppMessaging-00c827248fb20a3b.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseInAppMessaging-00c827248fb20a3b.zip"; sourceTree = "<group>"; };
+		2D173D1E2E25065C004FD753 /* FirebaseInAppMessagingBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseInAppMessagingBinary.json; sourceTree = "<group>"; };
+		2D173D1F2E25065C004FD753 /* FirebaseMessaging-faace3ba9827c455.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseMessaging-faace3ba9827c455.zip"; sourceTree = "<group>"; };
+		2D173D202E25065C004FD753 /* FirebaseMessagingBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseMessagingBinary.json; sourceTree = "<group>"; };
+		2D173D212E25065C004FD753 /* FirebaseMLModelDownloader-c053b5792960df37.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseMLModelDownloader-c053b5792960df37.zip"; sourceTree = "<group>"; };
+		2D173D222E25065C004FD753 /* FirebaseMLModelDownloaderBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseMLModelDownloaderBinary.json; sourceTree = "<group>"; };
+		2D173D232E25065C004FD753 /* FirebasePerformance-1ea9f0b8e5cef2d2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebasePerformance-1ea9f0b8e5cef2d2.zip"; sourceTree = "<group>"; };
+		2D173D242E25065C004FD753 /* FirebasePerformanceBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebasePerformanceBinary.json; sourceTree = "<group>"; };
+		2D173D252E25065C004FD753 /* FirebaseRemoteConfig-df265f79f252c97e.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseRemoteConfig-df265f79f252c97e.zip"; sourceTree = "<group>"; };
+		2D173D262E25065C004FD753 /* FirebaseRemoteConfigBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseRemoteConfigBinary.json; sourceTree = "<group>"; };
+		2D173D272E25065C004FD753 /* FirebaseStorage-af8b7d731da47f13.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseStorage-af8b7d731da47f13.zip"; sourceTree = "<group>"; };
+		2D173D282E25065C004FD753 /* FirebaseStorageBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseStorageBinary.json; sourceTree = "<group>"; };
+		2D173D292E25065C004FD753 /* FirebaseVertexAI-1063ba053684ed1a.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseVertexAI-1063ba053684ed1a.zip"; sourceTree = "<group>"; };
+		2D173D2A2E25065C004FD753 /* FirebaseVertexAIBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseVertexAIBinary.json; sourceTree = "<group>"; };
+		2D173D2B2E25065C004FD753 /* Google-Mobile-Ads-SDK-030b504727644b39.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Google-Mobile-Ads-SDK-030b504727644b39.zip"; sourceTree = "<group>"; };
+		2D173D2C2E25065C004FD753 /* GoogleSignIn-eebded978006aa85.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "GoogleSignIn-eebded978006aa85.zip"; sourceTree = "<group>"; };
+		2D173D302E25066A004FD753 /* Firebase-11.15.0-latest.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Firebase-11.15.0-latest.zip"; sourceTree = "<group>"; };
+		2D173D322E25066A004FD753 /* abseil-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D332E25066A004FD753 /* abseil-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D342E25066A004FD753 /* abseil-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D352E25066A004FD753 /* abseil-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D362E25066A004FD753 /* abseil-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D372E25066A004FD753 /* abseil-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "abseil-macosx.txt"; sourceTree = "<group>"; };
+		2D173D382E25066A004FD753 /* AppAuth-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppAuth-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D392E25066A004FD753 /* AppAuth-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppAuth-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D3A2E25066A004FD753 /* AppAuth-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppAuth-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D3B2E25066A004FD753 /* AppCheckCore-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D3C2E25066A004FD753 /* AppCheckCore-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D3D2E25066A004FD753 /* AppCheckCore-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D3E2E25066A004FD753 /* AppCheckCore-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D3F2E25066A004FD753 /* AppCheckCore-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D402E25066A004FD753 /* AppCheckCore-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-macosx.txt"; sourceTree = "<group>"; };
+		2D173D412E25066A004FD753 /* AppCheckCore-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-watchos.txt"; sourceTree = "<group>"; };
+		2D173D422E25066A004FD753 /* AppCheckCore-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "AppCheckCore-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D432E25066A004FD753 /* BoringSSL-GRPC-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D442E25066A004FD753 /* BoringSSL-GRPC-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D452E25066A004FD753 /* BoringSSL-GRPC-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D462E25066A004FD753 /* BoringSSL-GRPC-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D472E25066A004FD753 /* BoringSSL-GRPC-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D482E25066A004FD753 /* BoringSSL-GRPC-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BoringSSL-GRPC-macosx.txt"; sourceTree = "<group>"; };
+		2D173D492E25066A004FD753 /* FirebaseABTesting-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D4A2E25066A004FD753 /* FirebaseABTesting-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D4B2E25066A004FD753 /* FirebaseABTesting-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D4C2E25066A004FD753 /* FirebaseABTesting-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D4D2E25066A004FD753 /* FirebaseABTesting-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D4E2E25066A004FD753 /* FirebaseABTesting-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-macosx.txt"; sourceTree = "<group>"; };
+		2D173D4F2E25066A004FD753 /* FirebaseABTesting-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-watchos.txt"; sourceTree = "<group>"; };
+		2D173D502E25066A004FD753 /* FirebaseABTesting-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseABTesting-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D512E25066A004FD753 /* FirebaseAI-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D522E25066A004FD753 /* FirebaseAI-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D532E25066A004FD753 /* FirebaseAI-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D542E25066A004FD753 /* FirebaseAI-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D552E25066A004FD753 /* FirebaseAI-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D562E25066A004FD753 /* FirebaseAI-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-macosx.txt"; sourceTree = "<group>"; };
+		2D173D572E25066A004FD753 /* FirebaseAI-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-watchos.txt"; sourceTree = "<group>"; };
+		2D173D582E25066A004FD753 /* FirebaseAI-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAI-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D592E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversion-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAnalyticsOnDeviceConversion-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D5A2E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversion-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAnalyticsOnDeviceConversion-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D5B2E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversion-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAnalyticsOnDeviceConversion-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D5C2E25066A004FD753 /* FirebaseAppCheck-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D5D2E25066A004FD753 /* FirebaseAppCheck-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D5E2E25066A004FD753 /* FirebaseAppCheck-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D5F2E25066A004FD753 /* FirebaseAppCheck-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D602E25066A004FD753 /* FirebaseAppCheck-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D612E25066A004FD753 /* FirebaseAppCheck-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-macosx.txt"; sourceTree = "<group>"; };
+		2D173D622E25066A004FD753 /* FirebaseAppCheck-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-watchos.txt"; sourceTree = "<group>"; };
+		2D173D632E25066A004FD753 /* FirebaseAppCheck-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheck-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D642E25066A004FD753 /* FirebaseAppCheckInterop-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D652E25066A004FD753 /* FirebaseAppCheckInterop-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D662E25066A004FD753 /* FirebaseAppCheckInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D672E25066A004FD753 /* FirebaseAppCheckInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D682E25066A004FD753 /* FirebaseAppCheckInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D692E25066A004FD753 /* FirebaseAppCheckInterop-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-macosx.txt"; sourceTree = "<group>"; };
+		2D173D6A2E25066A004FD753 /* FirebaseAppCheckInterop-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-watchos.txt"; sourceTree = "<group>"; };
+		2D173D6B2E25066A004FD753 /* FirebaseAppCheckInterop-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppCheckInterop-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D6C2E25066A004FD753 /* FirebaseAppDistribution-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppDistribution-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D6D2E25066A004FD753 /* FirebaseAppDistribution-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppDistribution-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D6E2E25066A004FD753 /* FirebaseAppDistribution-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAppDistribution-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D6F2E25066A004FD753 /* FirebaseAuth-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D702E25066A004FD753 /* FirebaseAuth-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D712E25066A004FD753 /* FirebaseAuth-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D722E25066A004FD753 /* FirebaseAuth-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D732E25066A004FD753 /* FirebaseAuth-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D742E25066A004FD753 /* FirebaseAuth-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-macosx.txt"; sourceTree = "<group>"; };
+		2D173D752E25066A004FD753 /* FirebaseAuth-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-watchos.txt"; sourceTree = "<group>"; };
+		2D173D762E25066A004FD753 /* FirebaseAuth-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuth-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D772E25066A004FD753 /* FirebaseAuthInterop-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D782E25066A004FD753 /* FirebaseAuthInterop-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D792E25066A004FD753 /* FirebaseAuthInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D7A2E25066A004FD753 /* FirebaseAuthInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D7B2E25066A004FD753 /* FirebaseAuthInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D7C2E25066A004FD753 /* FirebaseAuthInterop-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-macosx.txt"; sourceTree = "<group>"; };
+		2D173D7D2E25066A004FD753 /* FirebaseAuthInterop-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-watchos.txt"; sourceTree = "<group>"; };
+		2D173D7E2E25066A004FD753 /* FirebaseAuthInterop-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseAuthInterop-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D7F2E25066A004FD753 /* FirebaseCore-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D802E25066A004FD753 /* FirebaseCore-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D812E25066A004FD753 /* FirebaseCore-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D822E25066A004FD753 /* FirebaseCore-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D832E25066A004FD753 /* FirebaseCore-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D842E25066A004FD753 /* FirebaseCore-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-macosx.txt"; sourceTree = "<group>"; };
+		2D173D852E25066A004FD753 /* FirebaseCore-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-watchos.txt"; sourceTree = "<group>"; };
+		2D173D862E25066A004FD753 /* FirebaseCore-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCore-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D872E25066A004FD753 /* FirebaseCoreExtension-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D882E25066A004FD753 /* FirebaseCoreExtension-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D892E25066A004FD753 /* FirebaseCoreExtension-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D8A2E25066A004FD753 /* FirebaseCoreExtension-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D8B2E25066A004FD753 /* FirebaseCoreExtension-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D8C2E25066A004FD753 /* FirebaseCoreExtension-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-macosx.txt"; sourceTree = "<group>"; };
+		2D173D8D2E25066A004FD753 /* FirebaseCoreExtension-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-watchos.txt"; sourceTree = "<group>"; };
+		2D173D8E2E25066A004FD753 /* FirebaseCoreExtension-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreExtension-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D8F2E25066A004FD753 /* FirebaseCoreInternal-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D902E25066A004FD753 /* FirebaseCoreInternal-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D912E25066A004FD753 /* FirebaseCoreInternal-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D922E25066A004FD753 /* FirebaseCoreInternal-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D932E25066A004FD753 /* FirebaseCoreInternal-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D942E25066A004FD753 /* FirebaseCoreInternal-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-macosx.txt"; sourceTree = "<group>"; };
+		2D173D952E25066A004FD753 /* FirebaseCoreInternal-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-watchos.txt"; sourceTree = "<group>"; };
+		2D173D962E25066A004FD753 /* FirebaseCoreInternal-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCoreInternal-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D972E25066A004FD753 /* FirebaseCrashlytics-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-appletvos.txt"; sourceTree = "<group>"; };
+		2D173D982E25066A004FD753 /* FirebaseCrashlytics-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173D992E25066A004FD753 /* FirebaseCrashlytics-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-catalyst.txt"; sourceTree = "<group>"; };
+		2D173D9A2E25066A004FD753 /* FirebaseCrashlytics-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173D9B2E25066A004FD753 /* FirebaseCrashlytics-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173D9C2E25066A004FD753 /* FirebaseCrashlytics-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-macosx.txt"; sourceTree = "<group>"; };
+		2D173D9D2E25066A004FD753 /* FirebaseCrashlytics-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-watchos.txt"; sourceTree = "<group>"; };
+		2D173D9E2E25066A004FD753 /* FirebaseCrashlytics-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseCrashlytics-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173D9F2E25066A004FD753 /* FirebaseDatabase-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DA02E25066A004FD753 /* FirebaseDatabase-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DA12E25066A004FD753 /* FirebaseDatabase-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DA22E25066A004FD753 /* FirebaseDatabase-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DA32E25066A004FD753 /* FirebaseDatabase-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DA42E25066A004FD753 /* FirebaseDatabase-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDatabase-macosx.txt"; sourceTree = "<group>"; };
+		2D173DA52E25066A004FD753 /* FirebaseDynamicLinks-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDynamicLinks-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DA62E25066A004FD753 /* FirebaseDynamicLinks-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDynamicLinks-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DA72E25066A004FD753 /* FirebaseDynamicLinks-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseDynamicLinks-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DA82E25066A004FD753 /* FirebaseFirestore-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DA92E25066A004FD753 /* FirebaseFirestore-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DAA2E25066A004FD753 /* FirebaseFirestore-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DAB2E25066A004FD753 /* FirebaseFirestore-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DAC2E25066A004FD753 /* FirebaseFirestore-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DAD2E25066A004FD753 /* FirebaseFirestore-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestore-macosx.txt"; sourceTree = "<group>"; };
+		2D173DAE2E25066A004FD753 /* FirebaseFirestoreInternal-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DAF2E25066A004FD753 /* FirebaseFirestoreInternal-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DB02E25066A004FD753 /* FirebaseFirestoreInternal-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DB12E25066A004FD753 /* FirebaseFirestoreInternal-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DB22E25066A004FD753 /* FirebaseFirestoreInternal-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DB32E25066A004FD753 /* FirebaseFirestoreInternal-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFirestoreInternal-macosx.txt"; sourceTree = "<group>"; };
+		2D173DB42E25066A004FD753 /* FirebaseFunctions-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DB52E25066A004FD753 /* FirebaseFunctions-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DB62E25066A004FD753 /* FirebaseFunctions-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DB72E25066A004FD753 /* FirebaseFunctions-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DB82E25066A004FD753 /* FirebaseFunctions-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DB92E25066A004FD753 /* FirebaseFunctions-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-macosx.txt"; sourceTree = "<group>"; };
+		2D173DBA2E25066A004FD753 /* FirebaseFunctions-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-watchos.txt"; sourceTree = "<group>"; };
+		2D173DBB2E25066A004FD753 /* FirebaseFunctions-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseFunctions-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173DBC2E25066A004FD753 /* FirebaseInAppMessaging-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInAppMessaging-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DBD2E25066A004FD753 /* FirebaseInAppMessaging-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInAppMessaging-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DBE2E25066A004FD753 /* FirebaseInAppMessaging-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInAppMessaging-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DBF2E25066A004FD753 /* FirebaseInstallations-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DC02E25066A004FD753 /* FirebaseInstallations-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DC12E25066A004FD753 /* FirebaseInstallations-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DC22E25066A004FD753 /* FirebaseInstallations-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DC32E25066A004FD753 /* FirebaseInstallations-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DC42E25066A004FD753 /* FirebaseInstallations-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-macosx.txt"; sourceTree = "<group>"; };
+		2D173DC52E25066A004FD753 /* FirebaseInstallations-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-watchos.txt"; sourceTree = "<group>"; };
+		2D173DC62E25066A004FD753 /* FirebaseInstallations-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseInstallations-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173DC72E25066A004FD753 /* FirebaseMessaging-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DC82E25066A004FD753 /* FirebaseMessaging-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DC92E25066A004FD753 /* FirebaseMessaging-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DCA2E25066A004FD753 /* FirebaseMessaging-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DCB2E25066A004FD753 /* FirebaseMessaging-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DCC2E25066A004FD753 /* FirebaseMessaging-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-macosx.txt"; sourceTree = "<group>"; };
+		2D173DCD2E25066A004FD753 /* FirebaseMessaging-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-watchos.txt"; sourceTree = "<group>"; };
+		2D173DCE2E25066A004FD753 /* FirebaseMessaging-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessaging-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173DCF2E25066A004FD753 /* FirebaseMessagingInterop-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DD02E25066A004FD753 /* FirebaseMessagingInterop-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DD12E25066A004FD753 /* FirebaseMessagingInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DD22E25066A004FD753 /* FirebaseMessagingInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DD32E25066A004FD753 /* FirebaseMessagingInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DD42E25066A004FD753 /* FirebaseMessagingInterop-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-macosx.txt"; sourceTree = "<group>"; };
+		2D173DD52E25066A004FD753 /* FirebaseMessagingInterop-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-watchos.txt"; sourceTree = "<group>"; };
+		2D173DD62E25066A004FD753 /* FirebaseMessagingInterop-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMessagingInterop-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173DD72E25066A004FD753 /* FirebaseMLModelDownloader-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DD82E25066A004FD753 /* FirebaseMLModelDownloader-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DD92E25066A004FD753 /* FirebaseMLModelDownloader-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DDA2E25066A004FD753 /* FirebaseMLModelDownloader-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DDB2E25066A004FD753 /* FirebaseMLModelDownloader-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DDC2E25066A004FD753 /* FirebaseMLModelDownloader-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-macosx.txt"; sourceTree = "<group>"; };
+		2D173DDD2E25066A004FD753 /* FirebaseMLModelDownloader-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-watchos.txt"; sourceTree = "<group>"; };
+		2D173DDE2E25066A004FD753 /* FirebaseMLModelDownloader-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseMLModelDownloader-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173DDF2E25066A004FD753 /* FirebasePerformance-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DE02E25066A004FD753 /* FirebasePerformance-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DE12E25066A004FD753 /* FirebasePerformance-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DE22E25066A004FD753 /* FirebasePerformance-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DE32E25066A004FD753 /* FirebasePerformance-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebasePerformance-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DE42E25066A004FD753 /* FirebaseRemoteConfig-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DE52E25066A004FD753 /* FirebaseRemoteConfig-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DE62E25066A004FD753 /* FirebaseRemoteConfig-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DE72E25066A004FD753 /* FirebaseRemoteConfig-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DE82E25066A004FD753 /* FirebaseRemoteConfig-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DE92E25066A004FD753 /* FirebaseRemoteConfig-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-macosx.txt"; sourceTree = "<group>"; };
+		2D173DEA2E25066A004FD753 /* FirebaseRemoteConfig-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-watchos.txt"; sourceTree = "<group>"; };
+		2D173DEB2E25066A004FD753 /* FirebaseRemoteConfig-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfig-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173DEC2E25066A004FD753 /* FirebaseRemoteConfigInterop-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DED2E25066A004FD753 /* FirebaseRemoteConfigInterop-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DEE2E25066A004FD753 /* FirebaseRemoteConfigInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DEF2E25066A004FD753 /* FirebaseRemoteConfigInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DF02E25066A004FD753 /* FirebaseRemoteConfigInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DF12E25066A004FD753 /* FirebaseRemoteConfigInterop-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-macosx.txt"; sourceTree = "<group>"; };
+		2D173DF22E25066A004FD753 /* FirebaseRemoteConfigInterop-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-watchos.txt"; sourceTree = "<group>"; };
+		2D173DF32E25066A004FD753 /* FirebaseRemoteConfigInterop-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseRemoteConfigInterop-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173DF42E25066A004FD753 /* FirebaseSessions-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DF52E25066A004FD753 /* FirebaseSessions-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DF62E25066A004FD753 /* FirebaseSessions-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DF72E25066A004FD753 /* FirebaseSessions-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173DF82E25066A004FD753 /* FirebaseSessions-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173DF92E25066A004FD753 /* FirebaseSessions-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-macosx.txt"; sourceTree = "<group>"; };
+		2D173DFA2E25066A004FD753 /* FirebaseSessions-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-watchos.txt"; sourceTree = "<group>"; };
+		2D173DFB2E25066A004FD753 /* FirebaseSessions-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSessions-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173DFC2E25066A004FD753 /* FirebaseSharedSwift-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-appletvos.txt"; sourceTree = "<group>"; };
+		2D173DFD2E25066A004FD753 /* FirebaseSharedSwift-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173DFE2E25066A004FD753 /* FirebaseSharedSwift-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-catalyst.txt"; sourceTree = "<group>"; };
+		2D173DFF2E25066A004FD753 /* FirebaseSharedSwift-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E002E25066A004FD753 /* FirebaseSharedSwift-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E012E25066A004FD753 /* FirebaseSharedSwift-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-macosx.txt"; sourceTree = "<group>"; };
+		2D173E022E25066A004FD753 /* FirebaseSharedSwift-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-watchos.txt"; sourceTree = "<group>"; };
+		2D173E032E25066A004FD753 /* FirebaseSharedSwift-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseSharedSwift-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E042E25066A004FD753 /* FirebaseStorage-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E052E25066A004FD753 /* FirebaseStorage-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E062E25066A004FD753 /* FirebaseStorage-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E072E25066A004FD753 /* FirebaseStorage-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E082E25066A004FD753 /* FirebaseStorage-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E092E25066A004FD753 /* FirebaseStorage-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-macosx.txt"; sourceTree = "<group>"; };
+		2D173E0A2E25066A004FD753 /* FirebaseStorage-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-watchos.txt"; sourceTree = "<group>"; };
+		2D173E0B2E25066A004FD753 /* FirebaseStorage-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseStorage-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E0C2E25066A004FD753 /* FirebaseVertexAI-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E0D2E25066A004FD753 /* FirebaseVertexAI-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E0E2E25066A004FD753 /* FirebaseVertexAI-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E0F2E25066A004FD753 /* FirebaseVertexAI-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E102E25066A004FD753 /* FirebaseVertexAI-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E112E25066A004FD753 /* FirebaseVertexAI-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-macosx.txt"; sourceTree = "<group>"; };
+		2D173E122E25066A004FD753 /* FirebaseVertexAI-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-watchos.txt"; sourceTree = "<group>"; };
+		2D173E132E25066A004FD753 /* FirebaseVertexAI-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FirebaseVertexAI-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E142E25066A004FD753 /* GoogleDataTransport-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E152E25066A004FD753 /* GoogleDataTransport-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E162E25066A004FD753 /* GoogleDataTransport-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E172E25066A004FD753 /* GoogleDataTransport-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E182E25066A004FD753 /* GoogleDataTransport-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E192E25066A004FD753 /* GoogleDataTransport-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-macosx.txt"; sourceTree = "<group>"; };
+		2D173E1A2E25066A004FD753 /* GoogleDataTransport-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-watchos.txt"; sourceTree = "<group>"; };
+		2D173E1B2E25066A004FD753 /* GoogleDataTransport-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleDataTransport-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E1C2E25066A004FD753 /* GoogleSignIn-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleSignIn-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E1D2E25066A004FD753 /* GoogleSignIn-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleSignIn-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E1E2E25066A004FD753 /* GoogleSignIn-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleSignIn-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E1F2E25066A004FD753 /* GoogleUtilities-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E202E25066A004FD753 /* GoogleUtilities-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E212E25066A004FD753 /* GoogleUtilities-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E222E25066A004FD753 /* GoogleUtilities-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E232E25066A004FD753 /* GoogleUtilities-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E242E25066A004FD753 /* GoogleUtilities-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-macosx.txt"; sourceTree = "<group>"; };
+		2D173E252E25066A004FD753 /* GoogleUtilities-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-watchos.txt"; sourceTree = "<group>"; };
+		2D173E262E25066A004FD753 /* GoogleUtilities-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GoogleUtilities-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E272E25066A004FD753 /* gRPC-C++-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E282E25066A004FD753 /* gRPC-C++-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E292E25066A004FD753 /* gRPC-C++-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E2A2E25066A004FD753 /* gRPC-C++-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E2B2E25066A004FD753 /* gRPC-C++-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E2C2E25066A004FD753 /* gRPC-C++-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-C++-macosx.txt"; sourceTree = "<group>"; };
+		2D173E2D2E25066A004FD753 /* gRPC-Core-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E2E2E25066A004FD753 /* gRPC-Core-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E2F2E25066A004FD753 /* gRPC-Core-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E302E25066A004FD753 /* gRPC-Core-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E312E25066A004FD753 /* gRPC-Core-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E322E25066A004FD753 /* gRPC-Core-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gRPC-Core-macosx.txt"; sourceTree = "<group>"; };
+		2D173E332E25066A004FD753 /* GTMAppAuth-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMAppAuth-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E342E25066A004FD753 /* GTMAppAuth-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMAppAuth-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E352E25066A004FD753 /* GTMAppAuth-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMAppAuth-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E362E25066A004FD753 /* GTMSessionFetcher-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E372E25066A004FD753 /* GTMSessionFetcher-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E382E25066A004FD753 /* GTMSessionFetcher-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E392E25066A004FD753 /* GTMSessionFetcher-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E3A2E25066A004FD753 /* GTMSessionFetcher-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E3B2E25066A004FD753 /* GTMSessionFetcher-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-macosx.txt"; sourceTree = "<group>"; };
+		2D173E3C2E25066A004FD753 /* GTMSessionFetcher-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-watchos.txt"; sourceTree = "<group>"; };
+		2D173E3D2E25066A004FD753 /* GTMSessionFetcher-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GTMSessionFetcher-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E3E2E25066A004FD753 /* leveldb-library-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E3F2E25066A004FD753 /* leveldb-library-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E402E25066A004FD753 /* leveldb-library-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E412E25066A004FD753 /* leveldb-library-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E422E25066A004FD753 /* leveldb-library-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E432E25066A004FD753 /* leveldb-library-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "leveldb-library-macosx.txt"; sourceTree = "<group>"; };
+		2D173E442E25066A004FD753 /* nanopb-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E452E25066A004FD753 /* nanopb-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E462E25066A004FD753 /* nanopb-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E472E25066A004FD753 /* nanopb-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E482E25066A004FD753 /* nanopb-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E492E25066A004FD753 /* nanopb-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-macosx.txt"; sourceTree = "<group>"; };
+		2D173E4A2E25066A004FD753 /* nanopb-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-watchos.txt"; sourceTree = "<group>"; };
+		2D173E4B2E25066A004FD753 /* nanopb-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nanopb-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E4C2E25066A004FD753 /* PromisesObjC-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E4D2E25066A004FD753 /* PromisesObjC-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E4E2E25066A004FD753 /* PromisesObjC-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E4F2E25066A004FD753 /* PromisesObjC-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E502E25066A004FD753 /* PromisesObjC-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E512E25066A004FD753 /* PromisesObjC-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-macosx.txt"; sourceTree = "<group>"; };
+		2D173E522E25066A004FD753 /* PromisesObjC-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-watchos.txt"; sourceTree = "<group>"; };
+		2D173E532E25066A004FD753 /* PromisesObjC-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesObjC-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E542E25066A004FD753 /* PromisesSwift-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E552E25066A004FD753 /* PromisesSwift-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E562E25066A004FD753 /* PromisesSwift-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E572E25066A004FD753 /* PromisesSwift-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E582E25066A004FD753 /* PromisesSwift-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E592E25066A004FD753 /* PromisesSwift-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-macosx.txt"; sourceTree = "<group>"; };
+		2D173E5A2E25066A004FD753 /* PromisesSwift-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-watchos.txt"; sourceTree = "<group>"; };
+		2D173E5B2E25066A004FD753 /* PromisesSwift-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PromisesSwift-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E5C2E25066A004FD753 /* RecaptchaInterop-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RecaptchaInterop-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E5D2E25066A004FD753 /* RecaptchaInterop-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RecaptchaInterop-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E5E2E25066A004FD753 /* RecaptchaInterop-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "RecaptchaInterop-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E5F2E25066A004FD753 /* SwiftProtobuf-appletvos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-appletvos.txt"; sourceTree = "<group>"; };
+		2D173E602E25066A004FD753 /* SwiftProtobuf-appletvsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-appletvsimulator.txt"; sourceTree = "<group>"; };
+		2D173E612E25066A004FD753 /* SwiftProtobuf-catalyst.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-catalyst.txt"; sourceTree = "<group>"; };
+		2D173E622E25066A004FD753 /* SwiftProtobuf-iphoneos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-iphoneos.txt"; sourceTree = "<group>"; };
+		2D173E632E25066A004FD753 /* SwiftProtobuf-iphonesimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-iphonesimulator.txt"; sourceTree = "<group>"; };
+		2D173E642E25066A004FD753 /* SwiftProtobuf-macosx.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-macosx.txt"; sourceTree = "<group>"; };
+		2D173E652E25066A004FD753 /* SwiftProtobuf-watchos.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-watchos.txt"; sourceTree = "<group>"; };
+		2D173E662E25066A004FD753 /* SwiftProtobuf-watchsimulator.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SwiftProtobuf-watchsimulator.txt"; sourceTree = "<group>"; };
+		2D173E682E25066A004FD753 /* FirebaseABTesting-7257632ed78c5c4c.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseABTesting-7257632ed78c5c4c.zip"; sourceTree = "<group>"; };
+		2D173E692E25066A004FD753 /* FirebaseABTestingBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseABTestingBinary.json; sourceTree = "<group>"; };
+		2D173E6A2E25066A004FD753 /* FirebaseAdMobBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAdMobBinary.json; sourceTree = "<group>"; };
+		2D173E6B2E25066A004FD753 /* FirebaseAI-ba1237ee5b7a5baa.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAI-ba1237ee5b7a5baa.zip"; sourceTree = "<group>"; };
+		2D173E6C2E25066A004FD753 /* FirebaseAIBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAIBinary.json; sourceTree = "<group>"; };
+		2D173E6D2E25066A004FD753 /* FirebaseAnalytics-9a411c918346c8ea.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAnalytics-9a411c918346c8ea.zip"; sourceTree = "<group>"; };
+		2D173E6E2E25066A004FD753 /* FirebaseAnalyticsBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAnalyticsBinary.json; sourceTree = "<group>"; };
+		2D173E6F2E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversion-f03a6283e3772033.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAnalyticsOnDeviceConversion-f03a6283e3772033.zip"; sourceTree = "<group>"; };
+		2D173E702E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversionBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAnalyticsOnDeviceConversionBinary.json; sourceTree = "<group>"; };
+		2D173E712E25066A004FD753 /* FirebaseAppCheck-b0eff608f83f7797.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAppCheck-b0eff608f83f7797.zip"; sourceTree = "<group>"; };
+		2D173E722E25066A004FD753 /* FirebaseAppCheckBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAppCheckBinary.json; sourceTree = "<group>"; };
+		2D173E732E25066A004FD753 /* FirebaseAppDistribution-4a78ab72ee174613.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAppDistribution-4a78ab72ee174613.zip"; sourceTree = "<group>"; };
+		2D173E742E25066A004FD753 /* FirebaseAppDistributionBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAppDistributionBinary.json; sourceTree = "<group>"; };
+		2D173E752E25066A004FD753 /* FirebaseAuth-d6d3264758ea5270.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseAuth-d6d3264758ea5270.zip"; sourceTree = "<group>"; };
+		2D173E762E25066A004FD753 /* FirebaseAuthBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseAuthBinary.json; sourceTree = "<group>"; };
+		2D173E772E25066A004FD753 /* FirebaseCrashlytics-6c0391d0cb3de2ad.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseCrashlytics-6c0391d0cb3de2ad.zip"; sourceTree = "<group>"; };
+		2D173E782E25066A004FD753 /* FirebaseCrashlyticsBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseCrashlyticsBinary.json; sourceTree = "<group>"; };
+		2D173E792E25066A004FD753 /* FirebaseDatabase-d0e4e892d5ecbffb.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseDatabase-d0e4e892d5ecbffb.zip"; sourceTree = "<group>"; };
+		2D173E7A2E25066A004FD753 /* FirebaseDatabaseBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseDatabaseBinary.json; sourceTree = "<group>"; };
+		2D173E7B2E25066A004FD753 /* FirebaseDynamicLinks-e46c284d68552c13.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseDynamicLinks-e46c284d68552c13.zip"; sourceTree = "<group>"; };
+		2D173E7C2E25066A004FD753 /* FirebaseDynamicLinksBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseDynamicLinksBinary.json; sourceTree = "<group>"; };
+		2D173E7D2E25066A004FD753 /* FirebaseFirestore-f374bf8c4f273d0d.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseFirestore-f374bf8c4f273d0d.zip"; sourceTree = "<group>"; };
+		2D173E7E2E25066A004FD753 /* FirebaseFirestoreBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseFirestoreBinary.json; sourceTree = "<group>"; };
+		2D173E7F2E25066A004FD753 /* FirebaseFunctions-74f3deb4b5a5bb48.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseFunctions-74f3deb4b5a5bb48.zip"; sourceTree = "<group>"; };
+		2D173E802E25066A004FD753 /* FirebaseFunctionsBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseFunctionsBinary.json; sourceTree = "<group>"; };
+		2D173E812E25066A004FD753 /* FirebaseGoogleSignInBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseGoogleSignInBinary.json; sourceTree = "<group>"; };
+		2D173E822E25066A004FD753 /* FirebaseInAppMessaging-00c827248fb20a3b.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseInAppMessaging-00c827248fb20a3b.zip"; sourceTree = "<group>"; };
+		2D173E832E25066A004FD753 /* FirebaseInAppMessagingBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseInAppMessagingBinary.json; sourceTree = "<group>"; };
+		2D173E842E25066A004FD753 /* FirebaseMessaging-faace3ba9827c455.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseMessaging-faace3ba9827c455.zip"; sourceTree = "<group>"; };
+		2D173E852E25066A004FD753 /* FirebaseMessagingBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseMessagingBinary.json; sourceTree = "<group>"; };
+		2D173E862E25066A004FD753 /* FirebaseMLModelDownloader-c053b5792960df37.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseMLModelDownloader-c053b5792960df37.zip"; sourceTree = "<group>"; };
+		2D173E872E25066A004FD753 /* FirebaseMLModelDownloaderBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseMLModelDownloaderBinary.json; sourceTree = "<group>"; };
+		2D173E882E25066A004FD753 /* FirebasePerformance-1ea9f0b8e5cef2d2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebasePerformance-1ea9f0b8e5cef2d2.zip"; sourceTree = "<group>"; };
+		2D173E892E25066A004FD753 /* FirebasePerformanceBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebasePerformanceBinary.json; sourceTree = "<group>"; };
+		2D173E8A2E25066A004FD753 /* FirebaseRemoteConfig-df265f79f252c97e.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseRemoteConfig-df265f79f252c97e.zip"; sourceTree = "<group>"; };
+		2D173E8B2E25066A004FD753 /* FirebaseRemoteConfigBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseRemoteConfigBinary.json; sourceTree = "<group>"; };
+		2D173E8C2E25066A004FD753 /* FirebaseStorage-af8b7d731da47f13.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseStorage-af8b7d731da47f13.zip"; sourceTree = "<group>"; };
+		2D173E8D2E25066A004FD753 /* FirebaseStorageBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseStorageBinary.json; sourceTree = "<group>"; };
+		2D173E8E2E25066A004FD753 /* FirebaseVertexAI-1063ba053684ed1a.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "FirebaseVertexAI-1063ba053684ed1a.zip"; sourceTree = "<group>"; };
+		2D173E8F2E25066A004FD753 /* FirebaseVertexAIBinary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FirebaseVertexAIBinary.json; sourceTree = "<group>"; };
+		2D173E902E25066A004FD753 /* Google-Mobile-Ads-SDK-030b504727644b39.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Google-Mobile-Ads-SDK-030b504727644b39.zip"; sourceTree = "<group>"; };
+		2D173E912E25066A004FD753 /* GoogleSignIn-eebded978006aa85.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "GoogleSignIn-eebded978006aa85.zip"; sourceTree = "<group>"; };
 		2D4201AF2E1D244A00201ECD /* AnimalMatchGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalMatchGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4201BC2E1D244B00201ECD /* AnimalMatchGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalMatchGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4201C62E1D244B00201ECD /* AnimalMatchGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalMatchGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		587CF3DF8525D3169C8AB2AF /* Pods_AnimalMatchGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalMatchGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		784CD6985BCE75DC0C9155EE /* Pods_AnimalMatchGame_AnimalMatchGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalMatchGame_AnimalMatchGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FBA990BE324B1132DABDB9 /* Pods_AnimalMatchGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalMatchGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2D173E9B2E2509B2004FD753 /* Exceptions for "AnimalMatchGame" folder in "AnimalMatchGame" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2D4201AE2E1D244A00201ECD /* AnimalMatchGame */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2D4201B12E1D244A00201ECD /* AnimalMatchGame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2D173E9B2E2509B2004FD753 /* Exceptions for "AnimalMatchGame" folder in "AnimalMatchGame" target */,
+			);
 			path = AnimalMatchGame;
 			sourceTree = "<group>";
 		};
@@ -52,6 +783,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0715FB2E250FA900464607 /* FirebaseCore in Frameworks */,
+				2D0715FF2E250FC900464607 /* FirebaseStorage in Frameworks */,
+				2D0715F92E250FA300464607 /* FirebaseAuth in Frameworks */,
+				2D8FC6282E25367600B75A5C /* FirebaseAnalytics in Frameworks */,
+				2D0715FD2E250FC000464607 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +795,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615DB9261A6CB390DBCBD0DB /* Pods_AnimalMatchGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +803,797 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC7B3B2D3F97BD256C703B9 /* Pods_AnimalMatchGame_AnimalMatchGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D173BCC2E25065C004FD753 /* 11_15_0 */ = {
+			isa = PBXGroup;
+			children = (
+				2D173BCB2E25065C004FD753 /* Firebase-11.15.0-latest.zip */,
+			);
+			path = 11_15_0;
+			sourceTree = "<group>";
+		};
+		2D173D022E25065C004FD753 /* build_logs */ = {
+			isa = PBXGroup;
+			children = (
+				2D173BCD2E25065C004FD753 /* abseil-appletvos.txt */,
+				2D173BCE2E25065C004FD753 /* abseil-appletvsimulator.txt */,
+				2D173BCF2E25065C004FD753 /* abseil-catalyst.txt */,
+				2D173BD02E25065C004FD753 /* abseil-iphoneos.txt */,
+				2D173BD12E25065C004FD753 /* abseil-iphonesimulator.txt */,
+				2D173BD22E25065C004FD753 /* abseil-macosx.txt */,
+				2D173BD32E25065C004FD753 /* AppAuth-catalyst.txt */,
+				2D173BD42E25065C004FD753 /* AppAuth-iphoneos.txt */,
+				2D173BD52E25065C004FD753 /* AppAuth-iphonesimulator.txt */,
+				2D173BD62E25065C004FD753 /* AppCheckCore-appletvos.txt */,
+				2D173BD72E25065C004FD753 /* AppCheckCore-appletvsimulator.txt */,
+				2D173BD82E25065C004FD753 /* AppCheckCore-catalyst.txt */,
+				2D173BD92E25065C004FD753 /* AppCheckCore-iphoneos.txt */,
+				2D173BDA2E25065C004FD753 /* AppCheckCore-iphonesimulator.txt */,
+				2D173BDB2E25065C004FD753 /* AppCheckCore-macosx.txt */,
+				2D173BDC2E25065C004FD753 /* AppCheckCore-watchos.txt */,
+				2D173BDD2E25065C004FD753 /* AppCheckCore-watchsimulator.txt */,
+				2D173BDE2E25065C004FD753 /* BoringSSL-GRPC-appletvos.txt */,
+				2D173BDF2E25065C004FD753 /* BoringSSL-GRPC-appletvsimulator.txt */,
+				2D173BE02E25065C004FD753 /* BoringSSL-GRPC-catalyst.txt */,
+				2D173BE12E25065C004FD753 /* BoringSSL-GRPC-iphoneos.txt */,
+				2D173BE22E25065C004FD753 /* BoringSSL-GRPC-iphonesimulator.txt */,
+				2D173BE32E25065C004FD753 /* BoringSSL-GRPC-macosx.txt */,
+				2D173BE42E25065C004FD753 /* FirebaseABTesting-appletvos.txt */,
+				2D173BE52E25065C004FD753 /* FirebaseABTesting-appletvsimulator.txt */,
+				2D173BE62E25065C004FD753 /* FirebaseABTesting-catalyst.txt */,
+				2D173BE72E25065C004FD753 /* FirebaseABTesting-iphoneos.txt */,
+				2D173BE82E25065C004FD753 /* FirebaseABTesting-iphonesimulator.txt */,
+				2D173BE92E25065C004FD753 /* FirebaseABTesting-macosx.txt */,
+				2D173BEA2E25065C004FD753 /* FirebaseABTesting-watchos.txt */,
+				2D173BEB2E25065C004FD753 /* FirebaseABTesting-watchsimulator.txt */,
+				2D173BEC2E25065C004FD753 /* FirebaseAI-appletvos.txt */,
+				2D173BED2E25065C004FD753 /* FirebaseAI-appletvsimulator.txt */,
+				2D173BEE2E25065C004FD753 /* FirebaseAI-catalyst.txt */,
+				2D173BEF2E25065C004FD753 /* FirebaseAI-iphoneos.txt */,
+				2D173BF02E25065C004FD753 /* FirebaseAI-iphonesimulator.txt */,
+				2D173BF12E25065C004FD753 /* FirebaseAI-macosx.txt */,
+				2D173BF22E25065C004FD753 /* FirebaseAI-watchos.txt */,
+				2D173BF32E25065C004FD753 /* FirebaseAI-watchsimulator.txt */,
+				2D173BF42E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversion-catalyst.txt */,
+				2D173BF52E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversion-iphoneos.txt */,
+				2D173BF62E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversion-iphonesimulator.txt */,
+				2D173BF72E25065C004FD753 /* FirebaseAppCheck-appletvos.txt */,
+				2D173BF82E25065C004FD753 /* FirebaseAppCheck-appletvsimulator.txt */,
+				2D173BF92E25065C004FD753 /* FirebaseAppCheck-catalyst.txt */,
+				2D173BFA2E25065C004FD753 /* FirebaseAppCheck-iphoneos.txt */,
+				2D173BFB2E25065C004FD753 /* FirebaseAppCheck-iphonesimulator.txt */,
+				2D173BFC2E25065C004FD753 /* FirebaseAppCheck-macosx.txt */,
+				2D173BFD2E25065C004FD753 /* FirebaseAppCheck-watchos.txt */,
+				2D173BFE2E25065C004FD753 /* FirebaseAppCheck-watchsimulator.txt */,
+				2D173BFF2E25065C004FD753 /* FirebaseAppCheckInterop-appletvos.txt */,
+				2D173C002E25065C004FD753 /* FirebaseAppCheckInterop-appletvsimulator.txt */,
+				2D173C012E25065C004FD753 /* FirebaseAppCheckInterop-catalyst.txt */,
+				2D173C022E25065C004FD753 /* FirebaseAppCheckInterop-iphoneos.txt */,
+				2D173C032E25065C004FD753 /* FirebaseAppCheckInterop-iphonesimulator.txt */,
+				2D173C042E25065C004FD753 /* FirebaseAppCheckInterop-macosx.txt */,
+				2D173C052E25065C004FD753 /* FirebaseAppCheckInterop-watchos.txt */,
+				2D173C062E25065C004FD753 /* FirebaseAppCheckInterop-watchsimulator.txt */,
+				2D173C072E25065C004FD753 /* FirebaseAppDistribution-catalyst.txt */,
+				2D173C082E25065C004FD753 /* FirebaseAppDistribution-iphoneos.txt */,
+				2D173C092E25065C004FD753 /* FirebaseAppDistribution-iphonesimulator.txt */,
+				2D173C0A2E25065C004FD753 /* FirebaseAuth-appletvos.txt */,
+				2D173C0B2E25065C004FD753 /* FirebaseAuth-appletvsimulator.txt */,
+				2D173C0C2E25065C004FD753 /* FirebaseAuth-catalyst.txt */,
+				2D173C0D2E25065C004FD753 /* FirebaseAuth-iphoneos.txt */,
+				2D173C0E2E25065C004FD753 /* FirebaseAuth-iphonesimulator.txt */,
+				2D173C0F2E25065C004FD753 /* FirebaseAuth-macosx.txt */,
+				2D173C102E25065C004FD753 /* FirebaseAuth-watchos.txt */,
+				2D173C112E25065C004FD753 /* FirebaseAuth-watchsimulator.txt */,
+				2D173C122E25065C004FD753 /* FirebaseAuthInterop-appletvos.txt */,
+				2D173C132E25065C004FD753 /* FirebaseAuthInterop-appletvsimulator.txt */,
+				2D173C142E25065C004FD753 /* FirebaseAuthInterop-catalyst.txt */,
+				2D173C152E25065C004FD753 /* FirebaseAuthInterop-iphoneos.txt */,
+				2D173C162E25065C004FD753 /* FirebaseAuthInterop-iphonesimulator.txt */,
+				2D173C172E25065C004FD753 /* FirebaseAuthInterop-macosx.txt */,
+				2D173C182E25065C004FD753 /* FirebaseAuthInterop-watchos.txt */,
+				2D173C192E25065C004FD753 /* FirebaseAuthInterop-watchsimulator.txt */,
+				2D173C1A2E25065C004FD753 /* FirebaseCore-appletvos.txt */,
+				2D173C1B2E25065C004FD753 /* FirebaseCore-appletvsimulator.txt */,
+				2D173C1C2E25065C004FD753 /* FirebaseCore-catalyst.txt */,
+				2D173C1D2E25065C004FD753 /* FirebaseCore-iphoneos.txt */,
+				2D173C1E2E25065C004FD753 /* FirebaseCore-iphonesimulator.txt */,
+				2D173C1F2E25065C004FD753 /* FirebaseCore-macosx.txt */,
+				2D173C202E25065C004FD753 /* FirebaseCore-watchos.txt */,
+				2D173C212E25065C004FD753 /* FirebaseCore-watchsimulator.txt */,
+				2D173C222E25065C004FD753 /* FirebaseCoreExtension-appletvos.txt */,
+				2D173C232E25065C004FD753 /* FirebaseCoreExtension-appletvsimulator.txt */,
+				2D173C242E25065C004FD753 /* FirebaseCoreExtension-catalyst.txt */,
+				2D173C252E25065C004FD753 /* FirebaseCoreExtension-iphoneos.txt */,
+				2D173C262E25065C004FD753 /* FirebaseCoreExtension-iphonesimulator.txt */,
+				2D173C272E25065C004FD753 /* FirebaseCoreExtension-macosx.txt */,
+				2D173C282E25065C004FD753 /* FirebaseCoreExtension-watchos.txt */,
+				2D173C292E25065C004FD753 /* FirebaseCoreExtension-watchsimulator.txt */,
+				2D173C2A2E25065C004FD753 /* FirebaseCoreInternal-appletvos.txt */,
+				2D173C2B2E25065C004FD753 /* FirebaseCoreInternal-appletvsimulator.txt */,
+				2D173C2C2E25065C004FD753 /* FirebaseCoreInternal-catalyst.txt */,
+				2D173C2D2E25065C004FD753 /* FirebaseCoreInternal-iphoneos.txt */,
+				2D173C2E2E25065C004FD753 /* FirebaseCoreInternal-iphonesimulator.txt */,
+				2D173C2F2E25065C004FD753 /* FirebaseCoreInternal-macosx.txt */,
+				2D173C302E25065C004FD753 /* FirebaseCoreInternal-watchos.txt */,
+				2D173C312E25065C004FD753 /* FirebaseCoreInternal-watchsimulator.txt */,
+				2D173C322E25065C004FD753 /* FirebaseCrashlytics-appletvos.txt */,
+				2D173C332E25065C004FD753 /* FirebaseCrashlytics-appletvsimulator.txt */,
+				2D173C342E25065C004FD753 /* FirebaseCrashlytics-catalyst.txt */,
+				2D173C352E25065C004FD753 /* FirebaseCrashlytics-iphoneos.txt */,
+				2D173C362E25065C004FD753 /* FirebaseCrashlytics-iphonesimulator.txt */,
+				2D173C372E25065C004FD753 /* FirebaseCrashlytics-macosx.txt */,
+				2D173C382E25065C004FD753 /* FirebaseCrashlytics-watchos.txt */,
+				2D173C392E25065C004FD753 /* FirebaseCrashlytics-watchsimulator.txt */,
+				2D173C3A2E25065C004FD753 /* FirebaseDatabase-appletvos.txt */,
+				2D173C3B2E25065C004FD753 /* FirebaseDatabase-appletvsimulator.txt */,
+				2D173C3C2E25065C004FD753 /* FirebaseDatabase-catalyst.txt */,
+				2D173C3D2E25065C004FD753 /* FirebaseDatabase-iphoneos.txt */,
+				2D173C3E2E25065C004FD753 /* FirebaseDatabase-iphonesimulator.txt */,
+				2D173C3F2E25065C004FD753 /* FirebaseDatabase-macosx.txt */,
+				2D173C402E25065C004FD753 /* FirebaseDynamicLinks-catalyst.txt */,
+				2D173C412E25065C004FD753 /* FirebaseDynamicLinks-iphoneos.txt */,
+				2D173C422E25065C004FD753 /* FirebaseDynamicLinks-iphonesimulator.txt */,
+				2D173C432E25065C004FD753 /* FirebaseFirestore-appletvos.txt */,
+				2D173C442E25065C004FD753 /* FirebaseFirestore-appletvsimulator.txt */,
+				2D173C452E25065C004FD753 /* FirebaseFirestore-catalyst.txt */,
+				2D173C462E25065C004FD753 /* FirebaseFirestore-iphoneos.txt */,
+				2D173C472E25065C004FD753 /* FirebaseFirestore-iphonesimulator.txt */,
+				2D173C482E25065C004FD753 /* FirebaseFirestore-macosx.txt */,
+				2D173C492E25065C004FD753 /* FirebaseFirestoreInternal-appletvos.txt */,
+				2D173C4A2E25065C004FD753 /* FirebaseFirestoreInternal-appletvsimulator.txt */,
+				2D173C4B2E25065C004FD753 /* FirebaseFirestoreInternal-catalyst.txt */,
+				2D173C4C2E25065C004FD753 /* FirebaseFirestoreInternal-iphoneos.txt */,
+				2D173C4D2E25065C004FD753 /* FirebaseFirestoreInternal-iphonesimulator.txt */,
+				2D173C4E2E25065C004FD753 /* FirebaseFirestoreInternal-macosx.txt */,
+				2D173C4F2E25065C004FD753 /* FirebaseFunctions-appletvos.txt */,
+				2D173C502E25065C004FD753 /* FirebaseFunctions-appletvsimulator.txt */,
+				2D173C512E25065C004FD753 /* FirebaseFunctions-catalyst.txt */,
+				2D173C522E25065C004FD753 /* FirebaseFunctions-iphoneos.txt */,
+				2D173C532E25065C004FD753 /* FirebaseFunctions-iphonesimulator.txt */,
+				2D173C542E25065C004FD753 /* FirebaseFunctions-macosx.txt */,
+				2D173C552E25065C004FD753 /* FirebaseFunctions-watchos.txt */,
+				2D173C562E25065C004FD753 /* FirebaseFunctions-watchsimulator.txt */,
+				2D173C572E25065C004FD753 /* FirebaseInAppMessaging-catalyst.txt */,
+				2D173C582E25065C004FD753 /* FirebaseInAppMessaging-iphoneos.txt */,
+				2D173C592E25065C004FD753 /* FirebaseInAppMessaging-iphonesimulator.txt */,
+				2D173C5A2E25065C004FD753 /* FirebaseInstallations-appletvos.txt */,
+				2D173C5B2E25065C004FD753 /* FirebaseInstallations-appletvsimulator.txt */,
+				2D173C5C2E25065C004FD753 /* FirebaseInstallations-catalyst.txt */,
+				2D173C5D2E25065C004FD753 /* FirebaseInstallations-iphoneos.txt */,
+				2D173C5E2E25065C004FD753 /* FirebaseInstallations-iphonesimulator.txt */,
+				2D173C5F2E25065C004FD753 /* FirebaseInstallations-macosx.txt */,
+				2D173C602E25065C004FD753 /* FirebaseInstallations-watchos.txt */,
+				2D173C612E25065C004FD753 /* FirebaseInstallations-watchsimulator.txt */,
+				2D173C622E25065C004FD753 /* FirebaseMessaging-appletvos.txt */,
+				2D173C632E25065C004FD753 /* FirebaseMessaging-appletvsimulator.txt */,
+				2D173C642E25065C004FD753 /* FirebaseMessaging-catalyst.txt */,
+				2D173C652E25065C004FD753 /* FirebaseMessaging-iphoneos.txt */,
+				2D173C662E25065C004FD753 /* FirebaseMessaging-iphonesimulator.txt */,
+				2D173C672E25065C004FD753 /* FirebaseMessaging-macosx.txt */,
+				2D173C682E25065C004FD753 /* FirebaseMessaging-watchos.txt */,
+				2D173C692E25065C004FD753 /* FirebaseMessaging-watchsimulator.txt */,
+				2D173C6A2E25065C004FD753 /* FirebaseMessagingInterop-appletvos.txt */,
+				2D173C6B2E25065C004FD753 /* FirebaseMessagingInterop-appletvsimulator.txt */,
+				2D173C6C2E25065C004FD753 /* FirebaseMessagingInterop-catalyst.txt */,
+				2D173C6D2E25065C004FD753 /* FirebaseMessagingInterop-iphoneos.txt */,
+				2D173C6E2E25065C004FD753 /* FirebaseMessagingInterop-iphonesimulator.txt */,
+				2D173C6F2E25065C004FD753 /* FirebaseMessagingInterop-macosx.txt */,
+				2D173C702E25065C004FD753 /* FirebaseMessagingInterop-watchos.txt */,
+				2D173C712E25065C004FD753 /* FirebaseMessagingInterop-watchsimulator.txt */,
+				2D173C722E25065C004FD753 /* FirebaseMLModelDownloader-appletvos.txt */,
+				2D173C732E25065C004FD753 /* FirebaseMLModelDownloader-appletvsimulator.txt */,
+				2D173C742E25065C004FD753 /* FirebaseMLModelDownloader-catalyst.txt */,
+				2D173C752E25065C004FD753 /* FirebaseMLModelDownloader-iphoneos.txt */,
+				2D173C762E25065C004FD753 /* FirebaseMLModelDownloader-iphonesimulator.txt */,
+				2D173C772E25065C004FD753 /* FirebaseMLModelDownloader-macosx.txt */,
+				2D173C782E25065C004FD753 /* FirebaseMLModelDownloader-watchos.txt */,
+				2D173C792E25065C004FD753 /* FirebaseMLModelDownloader-watchsimulator.txt */,
+				2D173C7A2E25065C004FD753 /* FirebasePerformance-appletvos.txt */,
+				2D173C7B2E25065C004FD753 /* FirebasePerformance-appletvsimulator.txt */,
+				2D173C7C2E25065C004FD753 /* FirebasePerformance-catalyst.txt */,
+				2D173C7D2E25065C004FD753 /* FirebasePerformance-iphoneos.txt */,
+				2D173C7E2E25065C004FD753 /* FirebasePerformance-iphonesimulator.txt */,
+				2D173C7F2E25065C004FD753 /* FirebaseRemoteConfig-appletvos.txt */,
+				2D173C802E25065C004FD753 /* FirebaseRemoteConfig-appletvsimulator.txt */,
+				2D173C812E25065C004FD753 /* FirebaseRemoteConfig-catalyst.txt */,
+				2D173C822E25065C004FD753 /* FirebaseRemoteConfig-iphoneos.txt */,
+				2D173C832E25065C004FD753 /* FirebaseRemoteConfig-iphonesimulator.txt */,
+				2D173C842E25065C004FD753 /* FirebaseRemoteConfig-macosx.txt */,
+				2D173C852E25065C004FD753 /* FirebaseRemoteConfig-watchos.txt */,
+				2D173C862E25065C004FD753 /* FirebaseRemoteConfig-watchsimulator.txt */,
+				2D173C872E25065C004FD753 /* FirebaseRemoteConfigInterop-appletvos.txt */,
+				2D173C882E25065C004FD753 /* FirebaseRemoteConfigInterop-appletvsimulator.txt */,
+				2D173C892E25065C004FD753 /* FirebaseRemoteConfigInterop-catalyst.txt */,
+				2D173C8A2E25065C004FD753 /* FirebaseRemoteConfigInterop-iphoneos.txt */,
+				2D173C8B2E25065C004FD753 /* FirebaseRemoteConfigInterop-iphonesimulator.txt */,
+				2D173C8C2E25065C004FD753 /* FirebaseRemoteConfigInterop-macosx.txt */,
+				2D173C8D2E25065C004FD753 /* FirebaseRemoteConfigInterop-watchos.txt */,
+				2D173C8E2E25065C004FD753 /* FirebaseRemoteConfigInterop-watchsimulator.txt */,
+				2D173C8F2E25065C004FD753 /* FirebaseSessions-appletvos.txt */,
+				2D173C902E25065C004FD753 /* FirebaseSessions-appletvsimulator.txt */,
+				2D173C912E25065C004FD753 /* FirebaseSessions-catalyst.txt */,
+				2D173C922E25065C004FD753 /* FirebaseSessions-iphoneos.txt */,
+				2D173C932E25065C004FD753 /* FirebaseSessions-iphonesimulator.txt */,
+				2D173C942E25065C004FD753 /* FirebaseSessions-macosx.txt */,
+				2D173C952E25065C004FD753 /* FirebaseSessions-watchos.txt */,
+				2D173C962E25065C004FD753 /* FirebaseSessions-watchsimulator.txt */,
+				2D173C972E25065C004FD753 /* FirebaseSharedSwift-appletvos.txt */,
+				2D173C982E25065C004FD753 /* FirebaseSharedSwift-appletvsimulator.txt */,
+				2D173C992E25065C004FD753 /* FirebaseSharedSwift-catalyst.txt */,
+				2D173C9A2E25065C004FD753 /* FirebaseSharedSwift-iphoneos.txt */,
+				2D173C9B2E25065C004FD753 /* FirebaseSharedSwift-iphonesimulator.txt */,
+				2D173C9C2E25065C004FD753 /* FirebaseSharedSwift-macosx.txt */,
+				2D173C9D2E25065C004FD753 /* FirebaseSharedSwift-watchos.txt */,
+				2D173C9E2E25065C004FD753 /* FirebaseSharedSwift-watchsimulator.txt */,
+				2D173C9F2E25065C004FD753 /* FirebaseStorage-appletvos.txt */,
+				2D173CA02E25065C004FD753 /* FirebaseStorage-appletvsimulator.txt */,
+				2D173CA12E25065C004FD753 /* FirebaseStorage-catalyst.txt */,
+				2D173CA22E25065C004FD753 /* FirebaseStorage-iphoneos.txt */,
+				2D173CA32E25065C004FD753 /* FirebaseStorage-iphonesimulator.txt */,
+				2D173CA42E25065C004FD753 /* FirebaseStorage-macosx.txt */,
+				2D173CA52E25065C004FD753 /* FirebaseStorage-watchos.txt */,
+				2D173CA62E25065C004FD753 /* FirebaseStorage-watchsimulator.txt */,
+				2D173CA72E25065C004FD753 /* FirebaseVertexAI-appletvos.txt */,
+				2D173CA82E25065C004FD753 /* FirebaseVertexAI-appletvsimulator.txt */,
+				2D173CA92E25065C004FD753 /* FirebaseVertexAI-catalyst.txt */,
+				2D173CAA2E25065C004FD753 /* FirebaseVertexAI-iphoneos.txt */,
+				2D173CAB2E25065C004FD753 /* FirebaseVertexAI-iphonesimulator.txt */,
+				2D173CAC2E25065C004FD753 /* FirebaseVertexAI-macosx.txt */,
+				2D173CAD2E25065C004FD753 /* FirebaseVertexAI-watchos.txt */,
+				2D173CAE2E25065C004FD753 /* FirebaseVertexAI-watchsimulator.txt */,
+				2D173CAF2E25065C004FD753 /* GoogleDataTransport-appletvos.txt */,
+				2D173CB02E25065C004FD753 /* GoogleDataTransport-appletvsimulator.txt */,
+				2D173CB12E25065C004FD753 /* GoogleDataTransport-catalyst.txt */,
+				2D173CB22E25065C004FD753 /* GoogleDataTransport-iphoneos.txt */,
+				2D173CB32E25065C004FD753 /* GoogleDataTransport-iphonesimulator.txt */,
+				2D173CB42E25065C004FD753 /* GoogleDataTransport-macosx.txt */,
+				2D173CB52E25065C004FD753 /* GoogleDataTransport-watchos.txt */,
+				2D173CB62E25065C004FD753 /* GoogleDataTransport-watchsimulator.txt */,
+				2D173CB72E25065C004FD753 /* GoogleSignIn-catalyst.txt */,
+				2D173CB82E25065C004FD753 /* GoogleSignIn-iphoneos.txt */,
+				2D173CB92E25065C004FD753 /* GoogleSignIn-iphonesimulator.txt */,
+				2D173CBA2E25065C004FD753 /* GoogleUtilities-appletvos.txt */,
+				2D173CBB2E25065C004FD753 /* GoogleUtilities-appletvsimulator.txt */,
+				2D173CBC2E25065C004FD753 /* GoogleUtilities-catalyst.txt */,
+				2D173CBD2E25065C004FD753 /* GoogleUtilities-iphoneos.txt */,
+				2D173CBE2E25065C004FD753 /* GoogleUtilities-iphonesimulator.txt */,
+				2D173CBF2E25065C004FD753 /* GoogleUtilities-macosx.txt */,
+				2D173CC02E25065C004FD753 /* GoogleUtilities-watchos.txt */,
+				2D173CC12E25065C004FD753 /* GoogleUtilities-watchsimulator.txt */,
+				2D173CC22E25065C004FD753 /* gRPC-C++-appletvos.txt */,
+				2D173CC32E25065C004FD753 /* gRPC-C++-appletvsimulator.txt */,
+				2D173CC42E25065C004FD753 /* gRPC-C++-catalyst.txt */,
+				2D173CC52E25065C004FD753 /* gRPC-C++-iphoneos.txt */,
+				2D173CC62E25065C004FD753 /* gRPC-C++-iphonesimulator.txt */,
+				2D173CC72E25065C004FD753 /* gRPC-C++-macosx.txt */,
+				2D173CC82E25065C004FD753 /* gRPC-Core-appletvos.txt */,
+				2D173CC92E25065C004FD753 /* gRPC-Core-appletvsimulator.txt */,
+				2D173CCA2E25065C004FD753 /* gRPC-Core-catalyst.txt */,
+				2D173CCB2E25065C004FD753 /* gRPC-Core-iphoneos.txt */,
+				2D173CCC2E25065C004FD753 /* gRPC-Core-iphonesimulator.txt */,
+				2D173CCD2E25065C004FD753 /* gRPC-Core-macosx.txt */,
+				2D173CCE2E25065C004FD753 /* GTMAppAuth-catalyst.txt */,
+				2D173CCF2E25065C004FD753 /* GTMAppAuth-iphoneos.txt */,
+				2D173CD02E25065C004FD753 /* GTMAppAuth-iphonesimulator.txt */,
+				2D173CD12E25065C004FD753 /* GTMSessionFetcher-appletvos.txt */,
+				2D173CD22E25065C004FD753 /* GTMSessionFetcher-appletvsimulator.txt */,
+				2D173CD32E25065C004FD753 /* GTMSessionFetcher-catalyst.txt */,
+				2D173CD42E25065C004FD753 /* GTMSessionFetcher-iphoneos.txt */,
+				2D173CD52E25065C004FD753 /* GTMSessionFetcher-iphonesimulator.txt */,
+				2D173CD62E25065C004FD753 /* GTMSessionFetcher-macosx.txt */,
+				2D173CD72E25065C004FD753 /* GTMSessionFetcher-watchos.txt */,
+				2D173CD82E25065C004FD753 /* GTMSessionFetcher-watchsimulator.txt */,
+				2D173CD92E25065C004FD753 /* leveldb-library-appletvos.txt */,
+				2D173CDA2E25065C004FD753 /* leveldb-library-appletvsimulator.txt */,
+				2D173CDB2E25065C004FD753 /* leveldb-library-catalyst.txt */,
+				2D173CDC2E25065C004FD753 /* leveldb-library-iphoneos.txt */,
+				2D173CDD2E25065C004FD753 /* leveldb-library-iphonesimulator.txt */,
+				2D173CDE2E25065C004FD753 /* leveldb-library-macosx.txt */,
+				2D173CDF2E25065C004FD753 /* nanopb-appletvos.txt */,
+				2D173CE02E25065C004FD753 /* nanopb-appletvsimulator.txt */,
+				2D173CE12E25065C004FD753 /* nanopb-catalyst.txt */,
+				2D173CE22E25065C004FD753 /* nanopb-iphoneos.txt */,
+				2D173CE32E25065C004FD753 /* nanopb-iphonesimulator.txt */,
+				2D173CE42E25065C004FD753 /* nanopb-macosx.txt */,
+				2D173CE52E25065C004FD753 /* nanopb-watchos.txt */,
+				2D173CE62E25065C004FD753 /* nanopb-watchsimulator.txt */,
+				2D173CE72E25065C004FD753 /* PromisesObjC-appletvos.txt */,
+				2D173CE82E25065C004FD753 /* PromisesObjC-appletvsimulator.txt */,
+				2D173CE92E25065C004FD753 /* PromisesObjC-catalyst.txt */,
+				2D173CEA2E25065C004FD753 /* PromisesObjC-iphoneos.txt */,
+				2D173CEB2E25065C004FD753 /* PromisesObjC-iphonesimulator.txt */,
+				2D173CEC2E25065C004FD753 /* PromisesObjC-macosx.txt */,
+				2D173CED2E25065C004FD753 /* PromisesObjC-watchos.txt */,
+				2D173CEE2E25065C004FD753 /* PromisesObjC-watchsimulator.txt */,
+				2D173CEF2E25065C004FD753 /* PromisesSwift-appletvos.txt */,
+				2D173CF02E25065C004FD753 /* PromisesSwift-appletvsimulator.txt */,
+				2D173CF12E25065C004FD753 /* PromisesSwift-catalyst.txt */,
+				2D173CF22E25065C004FD753 /* PromisesSwift-iphoneos.txt */,
+				2D173CF32E25065C004FD753 /* PromisesSwift-iphonesimulator.txt */,
+				2D173CF42E25065C004FD753 /* PromisesSwift-macosx.txt */,
+				2D173CF52E25065C004FD753 /* PromisesSwift-watchos.txt */,
+				2D173CF62E25065C004FD753 /* PromisesSwift-watchsimulator.txt */,
+				2D173CF72E25065C004FD753 /* RecaptchaInterop-catalyst.txt */,
+				2D173CF82E25065C004FD753 /* RecaptchaInterop-iphoneos.txt */,
+				2D173CF92E25065C004FD753 /* RecaptchaInterop-iphonesimulator.txt */,
+				2D173CFA2E25065C004FD753 /* SwiftProtobuf-appletvos.txt */,
+				2D173CFB2E25065C004FD753 /* SwiftProtobuf-appletvsimulator.txt */,
+				2D173CFC2E25065C004FD753 /* SwiftProtobuf-catalyst.txt */,
+				2D173CFD2E25065C004FD753 /* SwiftProtobuf-iphoneos.txt */,
+				2D173CFE2E25065C004FD753 /* SwiftProtobuf-iphonesimulator.txt */,
+				2D173CFF2E25065C004FD753 /* SwiftProtobuf-macosx.txt */,
+				2D173D002E25065C004FD753 /* SwiftProtobuf-watchos.txt */,
+				2D173D012E25065C004FD753 /* SwiftProtobuf-watchsimulator.txt */,
+			);
+			path = build_logs;
+			sourceTree = "<group>";
+		};
+		2D173D2D2E25065C004FD753 /* 11.15.0 */ = {
+			isa = PBXGroup;
+			children = (
+				2D173D032E25065C004FD753 /* FirebaseABTesting-7257632ed78c5c4c.zip */,
+				2D173D042E25065C004FD753 /* FirebaseABTestingBinary.json */,
+				2D173D052E25065C004FD753 /* FirebaseAdMobBinary.json */,
+				2D173D062E25065C004FD753 /* FirebaseAI-ba1237ee5b7a5baa.zip */,
+				2D173D072E25065C004FD753 /* FirebaseAIBinary.json */,
+				2D173D082E25065C004FD753 /* FirebaseAnalytics-9a411c918346c8ea.zip */,
+				2D173D092E25065C004FD753 /* FirebaseAnalyticsBinary.json */,
+				2D173D0A2E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversion-f03a6283e3772033.zip */,
+				2D173D0B2E25065C004FD753 /* FirebaseAnalyticsOnDeviceConversionBinary.json */,
+				2D173D0C2E25065C004FD753 /* FirebaseAppCheck-b0eff608f83f7797.zip */,
+				2D173D0D2E25065C004FD753 /* FirebaseAppCheckBinary.json */,
+				2D173D0E2E25065C004FD753 /* FirebaseAppDistribution-4a78ab72ee174613.zip */,
+				2D173D0F2E25065C004FD753 /* FirebaseAppDistributionBinary.json */,
+				2D173D102E25065C004FD753 /* FirebaseAuth-d6d3264758ea5270.zip */,
+				2D173D112E25065C004FD753 /* FirebaseAuthBinary.json */,
+				2D173D122E25065C004FD753 /* FirebaseCrashlytics-6c0391d0cb3de2ad.zip */,
+				2D173D132E25065C004FD753 /* FirebaseCrashlyticsBinary.json */,
+				2D173D142E25065C004FD753 /* FirebaseDatabase-d0e4e892d5ecbffb.zip */,
+				2D173D152E25065C004FD753 /* FirebaseDatabaseBinary.json */,
+				2D173D162E25065C004FD753 /* FirebaseDynamicLinks-e46c284d68552c13.zip */,
+				2D173D172E25065C004FD753 /* FirebaseDynamicLinksBinary.json */,
+				2D173D182E25065C004FD753 /* FirebaseFirestore-f374bf8c4f273d0d.zip */,
+				2D173D192E25065C004FD753 /* FirebaseFirestoreBinary.json */,
+				2D173D1A2E25065C004FD753 /* FirebaseFunctions-74f3deb4b5a5bb48.zip */,
+				2D173D1B2E25065C004FD753 /* FirebaseFunctionsBinary.json */,
+				2D173D1C2E25065C004FD753 /* FirebaseGoogleSignInBinary.json */,
+				2D173D1D2E25065C004FD753 /* FirebaseInAppMessaging-00c827248fb20a3b.zip */,
+				2D173D1E2E25065C004FD753 /* FirebaseInAppMessagingBinary.json */,
+				2D173D1F2E25065C004FD753 /* FirebaseMessaging-faace3ba9827c455.zip */,
+				2D173D202E25065C004FD753 /* FirebaseMessagingBinary.json */,
+				2D173D212E25065C004FD753 /* FirebaseMLModelDownloader-c053b5792960df37.zip */,
+				2D173D222E25065C004FD753 /* FirebaseMLModelDownloaderBinary.json */,
+				2D173D232E25065C004FD753 /* FirebasePerformance-1ea9f0b8e5cef2d2.zip */,
+				2D173D242E25065C004FD753 /* FirebasePerformanceBinary.json */,
+				2D173D252E25065C004FD753 /* FirebaseRemoteConfig-df265f79f252c97e.zip */,
+				2D173D262E25065C004FD753 /* FirebaseRemoteConfigBinary.json */,
+				2D173D272E25065C004FD753 /* FirebaseStorage-af8b7d731da47f13.zip */,
+				2D173D282E25065C004FD753 /* FirebaseStorageBinary.json */,
+				2D173D292E25065C004FD753 /* FirebaseVertexAI-1063ba053684ed1a.zip */,
+				2D173D2A2E25065C004FD753 /* FirebaseVertexAIBinary.json */,
+				2D173D2B2E25065C004FD753 /* Google-Mobile-Ads-SDK-030b504727644b39.zip */,
+				2D173D2C2E25065C004FD753 /* GoogleSignIn-eebded978006aa85.zip */,
+			);
+			path = 11.15.0;
+			sourceTree = "<group>";
+		};
+		2D173D2E2E25065C004FD753 /* carthage */ = {
+			isa = PBXGroup;
+			children = (
+				2D173D2D2E25065C004FD753 /* 11.15.0 */,
+			);
+			path = carthage;
+			sourceTree = "<group>";
+		};
+		2D173D2F2E25065C004FD753 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				2D173BCC2E25065C004FD753 /* 11_15_0 */,
+				2D173D022E25065C004FD753 /* build_logs */,
+				2D173D2E2E25065C004FD753 /* carthage */,
+			);
+			name = Firebase;
+			path = ../../Downloads/Firebase;
+			sourceTree = "<group>";
+		};
+		2D173D312E25066A004FD753 /* 11_15_0 */ = {
+			isa = PBXGroup;
+			children = (
+				2D173D302E25066A004FD753 /* Firebase-11.15.0-latest.zip */,
+			);
+			path = 11_15_0;
+			sourceTree = "<group>";
+		};
+		2D173E672E25066A004FD753 /* build_logs */ = {
+			isa = PBXGroup;
+			children = (
+				2D173D322E25066A004FD753 /* abseil-appletvos.txt */,
+				2D173D332E25066A004FD753 /* abseil-appletvsimulator.txt */,
+				2D173D342E25066A004FD753 /* abseil-catalyst.txt */,
+				2D173D352E25066A004FD753 /* abseil-iphoneos.txt */,
+				2D173D362E25066A004FD753 /* abseil-iphonesimulator.txt */,
+				2D173D372E25066A004FD753 /* abseil-macosx.txt */,
+				2D173D382E25066A004FD753 /* AppAuth-catalyst.txt */,
+				2D173D392E25066A004FD753 /* AppAuth-iphoneos.txt */,
+				2D173D3A2E25066A004FD753 /* AppAuth-iphonesimulator.txt */,
+				2D173D3B2E25066A004FD753 /* AppCheckCore-appletvos.txt */,
+				2D173D3C2E25066A004FD753 /* AppCheckCore-appletvsimulator.txt */,
+				2D173D3D2E25066A004FD753 /* AppCheckCore-catalyst.txt */,
+				2D173D3E2E25066A004FD753 /* AppCheckCore-iphoneos.txt */,
+				2D173D3F2E25066A004FD753 /* AppCheckCore-iphonesimulator.txt */,
+				2D173D402E25066A004FD753 /* AppCheckCore-macosx.txt */,
+				2D173D412E25066A004FD753 /* AppCheckCore-watchos.txt */,
+				2D173D422E25066A004FD753 /* AppCheckCore-watchsimulator.txt */,
+				2D173D432E25066A004FD753 /* BoringSSL-GRPC-appletvos.txt */,
+				2D173D442E25066A004FD753 /* BoringSSL-GRPC-appletvsimulator.txt */,
+				2D173D452E25066A004FD753 /* BoringSSL-GRPC-catalyst.txt */,
+				2D173D462E25066A004FD753 /* BoringSSL-GRPC-iphoneos.txt */,
+				2D173D472E25066A004FD753 /* BoringSSL-GRPC-iphonesimulator.txt */,
+				2D173D482E25066A004FD753 /* BoringSSL-GRPC-macosx.txt */,
+				2D173D492E25066A004FD753 /* FirebaseABTesting-appletvos.txt */,
+				2D173D4A2E25066A004FD753 /* FirebaseABTesting-appletvsimulator.txt */,
+				2D173D4B2E25066A004FD753 /* FirebaseABTesting-catalyst.txt */,
+				2D173D4C2E25066A004FD753 /* FirebaseABTesting-iphoneos.txt */,
+				2D173D4D2E25066A004FD753 /* FirebaseABTesting-iphonesimulator.txt */,
+				2D173D4E2E25066A004FD753 /* FirebaseABTesting-macosx.txt */,
+				2D173D4F2E25066A004FD753 /* FirebaseABTesting-watchos.txt */,
+				2D173D502E25066A004FD753 /* FirebaseABTesting-watchsimulator.txt */,
+				2D173D512E25066A004FD753 /* FirebaseAI-appletvos.txt */,
+				2D173D522E25066A004FD753 /* FirebaseAI-appletvsimulator.txt */,
+				2D173D532E25066A004FD753 /* FirebaseAI-catalyst.txt */,
+				2D173D542E25066A004FD753 /* FirebaseAI-iphoneos.txt */,
+				2D173D552E25066A004FD753 /* FirebaseAI-iphonesimulator.txt */,
+				2D173D562E25066A004FD753 /* FirebaseAI-macosx.txt */,
+				2D173D572E25066A004FD753 /* FirebaseAI-watchos.txt */,
+				2D173D582E25066A004FD753 /* FirebaseAI-watchsimulator.txt */,
+				2D173D592E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversion-catalyst.txt */,
+				2D173D5A2E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversion-iphoneos.txt */,
+				2D173D5B2E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversion-iphonesimulator.txt */,
+				2D173D5C2E25066A004FD753 /* FirebaseAppCheck-appletvos.txt */,
+				2D173D5D2E25066A004FD753 /* FirebaseAppCheck-appletvsimulator.txt */,
+				2D173D5E2E25066A004FD753 /* FirebaseAppCheck-catalyst.txt */,
+				2D173D5F2E25066A004FD753 /* FirebaseAppCheck-iphoneos.txt */,
+				2D173D602E25066A004FD753 /* FirebaseAppCheck-iphonesimulator.txt */,
+				2D173D612E25066A004FD753 /* FirebaseAppCheck-macosx.txt */,
+				2D173D622E25066A004FD753 /* FirebaseAppCheck-watchos.txt */,
+				2D173D632E25066A004FD753 /* FirebaseAppCheck-watchsimulator.txt */,
+				2D173D642E25066A004FD753 /* FirebaseAppCheckInterop-appletvos.txt */,
+				2D173D652E25066A004FD753 /* FirebaseAppCheckInterop-appletvsimulator.txt */,
+				2D173D662E25066A004FD753 /* FirebaseAppCheckInterop-catalyst.txt */,
+				2D173D672E25066A004FD753 /* FirebaseAppCheckInterop-iphoneos.txt */,
+				2D173D682E25066A004FD753 /* FirebaseAppCheckInterop-iphonesimulator.txt */,
+				2D173D692E25066A004FD753 /* FirebaseAppCheckInterop-macosx.txt */,
+				2D173D6A2E25066A004FD753 /* FirebaseAppCheckInterop-watchos.txt */,
+				2D173D6B2E25066A004FD753 /* FirebaseAppCheckInterop-watchsimulator.txt */,
+				2D173D6C2E25066A004FD753 /* FirebaseAppDistribution-catalyst.txt */,
+				2D173D6D2E25066A004FD753 /* FirebaseAppDistribution-iphoneos.txt */,
+				2D173D6E2E25066A004FD753 /* FirebaseAppDistribution-iphonesimulator.txt */,
+				2D173D6F2E25066A004FD753 /* FirebaseAuth-appletvos.txt */,
+				2D173D702E25066A004FD753 /* FirebaseAuth-appletvsimulator.txt */,
+				2D173D712E25066A004FD753 /* FirebaseAuth-catalyst.txt */,
+				2D173D722E25066A004FD753 /* FirebaseAuth-iphoneos.txt */,
+				2D173D732E25066A004FD753 /* FirebaseAuth-iphonesimulator.txt */,
+				2D173D742E25066A004FD753 /* FirebaseAuth-macosx.txt */,
+				2D173D752E25066A004FD753 /* FirebaseAuth-watchos.txt */,
+				2D173D762E25066A004FD753 /* FirebaseAuth-watchsimulator.txt */,
+				2D173D772E25066A004FD753 /* FirebaseAuthInterop-appletvos.txt */,
+				2D173D782E25066A004FD753 /* FirebaseAuthInterop-appletvsimulator.txt */,
+				2D173D792E25066A004FD753 /* FirebaseAuthInterop-catalyst.txt */,
+				2D173D7A2E25066A004FD753 /* FirebaseAuthInterop-iphoneos.txt */,
+				2D173D7B2E25066A004FD753 /* FirebaseAuthInterop-iphonesimulator.txt */,
+				2D173D7C2E25066A004FD753 /* FirebaseAuthInterop-macosx.txt */,
+				2D173D7D2E25066A004FD753 /* FirebaseAuthInterop-watchos.txt */,
+				2D173D7E2E25066A004FD753 /* FirebaseAuthInterop-watchsimulator.txt */,
+				2D173D7F2E25066A004FD753 /* FirebaseCore-appletvos.txt */,
+				2D173D802E25066A004FD753 /* FirebaseCore-appletvsimulator.txt */,
+				2D173D812E25066A004FD753 /* FirebaseCore-catalyst.txt */,
+				2D173D822E25066A004FD753 /* FirebaseCore-iphoneos.txt */,
+				2D173D832E25066A004FD753 /* FirebaseCore-iphonesimulator.txt */,
+				2D173D842E25066A004FD753 /* FirebaseCore-macosx.txt */,
+				2D173D852E25066A004FD753 /* FirebaseCore-watchos.txt */,
+				2D173D862E25066A004FD753 /* FirebaseCore-watchsimulator.txt */,
+				2D173D872E25066A004FD753 /* FirebaseCoreExtension-appletvos.txt */,
+				2D173D882E25066A004FD753 /* FirebaseCoreExtension-appletvsimulator.txt */,
+				2D173D892E25066A004FD753 /* FirebaseCoreExtension-catalyst.txt */,
+				2D173D8A2E25066A004FD753 /* FirebaseCoreExtension-iphoneos.txt */,
+				2D173D8B2E25066A004FD753 /* FirebaseCoreExtension-iphonesimulator.txt */,
+				2D173D8C2E25066A004FD753 /* FirebaseCoreExtension-macosx.txt */,
+				2D173D8D2E25066A004FD753 /* FirebaseCoreExtension-watchos.txt */,
+				2D173D8E2E25066A004FD753 /* FirebaseCoreExtension-watchsimulator.txt */,
+				2D173D8F2E25066A004FD753 /* FirebaseCoreInternal-appletvos.txt */,
+				2D173D902E25066A004FD753 /* FirebaseCoreInternal-appletvsimulator.txt */,
+				2D173D912E25066A004FD753 /* FirebaseCoreInternal-catalyst.txt */,
+				2D173D922E25066A004FD753 /* FirebaseCoreInternal-iphoneos.txt */,
+				2D173D932E25066A004FD753 /* FirebaseCoreInternal-iphonesimulator.txt */,
+				2D173D942E25066A004FD753 /* FirebaseCoreInternal-macosx.txt */,
+				2D173D952E25066A004FD753 /* FirebaseCoreInternal-watchos.txt */,
+				2D173D962E25066A004FD753 /* FirebaseCoreInternal-watchsimulator.txt */,
+				2D173D972E25066A004FD753 /* FirebaseCrashlytics-appletvos.txt */,
+				2D173D982E25066A004FD753 /* FirebaseCrashlytics-appletvsimulator.txt */,
+				2D173D992E25066A004FD753 /* FirebaseCrashlytics-catalyst.txt */,
+				2D173D9A2E25066A004FD753 /* FirebaseCrashlytics-iphoneos.txt */,
+				2D173D9B2E25066A004FD753 /* FirebaseCrashlytics-iphonesimulator.txt */,
+				2D173D9C2E25066A004FD753 /* FirebaseCrashlytics-macosx.txt */,
+				2D173D9D2E25066A004FD753 /* FirebaseCrashlytics-watchos.txt */,
+				2D173D9E2E25066A004FD753 /* FirebaseCrashlytics-watchsimulator.txt */,
+				2D173D9F2E25066A004FD753 /* FirebaseDatabase-appletvos.txt */,
+				2D173DA02E25066A004FD753 /* FirebaseDatabase-appletvsimulator.txt */,
+				2D173DA12E25066A004FD753 /* FirebaseDatabase-catalyst.txt */,
+				2D173DA22E25066A004FD753 /* FirebaseDatabase-iphoneos.txt */,
+				2D173DA32E25066A004FD753 /* FirebaseDatabase-iphonesimulator.txt */,
+				2D173DA42E25066A004FD753 /* FirebaseDatabase-macosx.txt */,
+				2D173DA52E25066A004FD753 /* FirebaseDynamicLinks-catalyst.txt */,
+				2D173DA62E25066A004FD753 /* FirebaseDynamicLinks-iphoneos.txt */,
+				2D173DA72E25066A004FD753 /* FirebaseDynamicLinks-iphonesimulator.txt */,
+				2D173DA82E25066A004FD753 /* FirebaseFirestore-appletvos.txt */,
+				2D173DA92E25066A004FD753 /* FirebaseFirestore-appletvsimulator.txt */,
+				2D173DAA2E25066A004FD753 /* FirebaseFirestore-catalyst.txt */,
+				2D173DAB2E25066A004FD753 /* FirebaseFirestore-iphoneos.txt */,
+				2D173DAC2E25066A004FD753 /* FirebaseFirestore-iphonesimulator.txt */,
+				2D173DAD2E25066A004FD753 /* FirebaseFirestore-macosx.txt */,
+				2D173DAE2E25066A004FD753 /* FirebaseFirestoreInternal-appletvos.txt */,
+				2D173DAF2E25066A004FD753 /* FirebaseFirestoreInternal-appletvsimulator.txt */,
+				2D173DB02E25066A004FD753 /* FirebaseFirestoreInternal-catalyst.txt */,
+				2D173DB12E25066A004FD753 /* FirebaseFirestoreInternal-iphoneos.txt */,
+				2D173DB22E25066A004FD753 /* FirebaseFirestoreInternal-iphonesimulator.txt */,
+				2D173DB32E25066A004FD753 /* FirebaseFirestoreInternal-macosx.txt */,
+				2D173DB42E25066A004FD753 /* FirebaseFunctions-appletvos.txt */,
+				2D173DB52E25066A004FD753 /* FirebaseFunctions-appletvsimulator.txt */,
+				2D173DB62E25066A004FD753 /* FirebaseFunctions-catalyst.txt */,
+				2D173DB72E25066A004FD753 /* FirebaseFunctions-iphoneos.txt */,
+				2D173DB82E25066A004FD753 /* FirebaseFunctions-iphonesimulator.txt */,
+				2D173DB92E25066A004FD753 /* FirebaseFunctions-macosx.txt */,
+				2D173DBA2E25066A004FD753 /* FirebaseFunctions-watchos.txt */,
+				2D173DBB2E25066A004FD753 /* FirebaseFunctions-watchsimulator.txt */,
+				2D173DBC2E25066A004FD753 /* FirebaseInAppMessaging-catalyst.txt */,
+				2D173DBD2E25066A004FD753 /* FirebaseInAppMessaging-iphoneos.txt */,
+				2D173DBE2E25066A004FD753 /* FirebaseInAppMessaging-iphonesimulator.txt */,
+				2D173DBF2E25066A004FD753 /* FirebaseInstallations-appletvos.txt */,
+				2D173DC02E25066A004FD753 /* FirebaseInstallations-appletvsimulator.txt */,
+				2D173DC12E25066A004FD753 /* FirebaseInstallations-catalyst.txt */,
+				2D173DC22E25066A004FD753 /* FirebaseInstallations-iphoneos.txt */,
+				2D173DC32E25066A004FD753 /* FirebaseInstallations-iphonesimulator.txt */,
+				2D173DC42E25066A004FD753 /* FirebaseInstallations-macosx.txt */,
+				2D173DC52E25066A004FD753 /* FirebaseInstallations-watchos.txt */,
+				2D173DC62E25066A004FD753 /* FirebaseInstallations-watchsimulator.txt */,
+				2D173DC72E25066A004FD753 /* FirebaseMessaging-appletvos.txt */,
+				2D173DC82E25066A004FD753 /* FirebaseMessaging-appletvsimulator.txt */,
+				2D173DC92E25066A004FD753 /* FirebaseMessaging-catalyst.txt */,
+				2D173DCA2E25066A004FD753 /* FirebaseMessaging-iphoneos.txt */,
+				2D173DCB2E25066A004FD753 /* FirebaseMessaging-iphonesimulator.txt */,
+				2D173DCC2E25066A004FD753 /* FirebaseMessaging-macosx.txt */,
+				2D173DCD2E25066A004FD753 /* FirebaseMessaging-watchos.txt */,
+				2D173DCE2E25066A004FD753 /* FirebaseMessaging-watchsimulator.txt */,
+				2D173DCF2E25066A004FD753 /* FirebaseMessagingInterop-appletvos.txt */,
+				2D173DD02E25066A004FD753 /* FirebaseMessagingInterop-appletvsimulator.txt */,
+				2D173DD12E25066A004FD753 /* FirebaseMessagingInterop-catalyst.txt */,
+				2D173DD22E25066A004FD753 /* FirebaseMessagingInterop-iphoneos.txt */,
+				2D173DD32E25066A004FD753 /* FirebaseMessagingInterop-iphonesimulator.txt */,
+				2D173DD42E25066A004FD753 /* FirebaseMessagingInterop-macosx.txt */,
+				2D173DD52E25066A004FD753 /* FirebaseMessagingInterop-watchos.txt */,
+				2D173DD62E25066A004FD753 /* FirebaseMessagingInterop-watchsimulator.txt */,
+				2D173DD72E25066A004FD753 /* FirebaseMLModelDownloader-appletvos.txt */,
+				2D173DD82E25066A004FD753 /* FirebaseMLModelDownloader-appletvsimulator.txt */,
+				2D173DD92E25066A004FD753 /* FirebaseMLModelDownloader-catalyst.txt */,
+				2D173DDA2E25066A004FD753 /* FirebaseMLModelDownloader-iphoneos.txt */,
+				2D173DDB2E25066A004FD753 /* FirebaseMLModelDownloader-iphonesimulator.txt */,
+				2D173DDC2E25066A004FD753 /* FirebaseMLModelDownloader-macosx.txt */,
+				2D173DDD2E25066A004FD753 /* FirebaseMLModelDownloader-watchos.txt */,
+				2D173DDE2E25066A004FD753 /* FirebaseMLModelDownloader-watchsimulator.txt */,
+				2D173DDF2E25066A004FD753 /* FirebasePerformance-appletvos.txt */,
+				2D173DE02E25066A004FD753 /* FirebasePerformance-appletvsimulator.txt */,
+				2D173DE12E25066A004FD753 /* FirebasePerformance-catalyst.txt */,
+				2D173DE22E25066A004FD753 /* FirebasePerformance-iphoneos.txt */,
+				2D173DE32E25066A004FD753 /* FirebasePerformance-iphonesimulator.txt */,
+				2D173DE42E25066A004FD753 /* FirebaseRemoteConfig-appletvos.txt */,
+				2D173DE52E25066A004FD753 /* FirebaseRemoteConfig-appletvsimulator.txt */,
+				2D173DE62E25066A004FD753 /* FirebaseRemoteConfig-catalyst.txt */,
+				2D173DE72E25066A004FD753 /* FirebaseRemoteConfig-iphoneos.txt */,
+				2D173DE82E25066A004FD753 /* FirebaseRemoteConfig-iphonesimulator.txt */,
+				2D173DE92E25066A004FD753 /* FirebaseRemoteConfig-macosx.txt */,
+				2D173DEA2E25066A004FD753 /* FirebaseRemoteConfig-watchos.txt */,
+				2D173DEB2E25066A004FD753 /* FirebaseRemoteConfig-watchsimulator.txt */,
+				2D173DEC2E25066A004FD753 /* FirebaseRemoteConfigInterop-appletvos.txt */,
+				2D173DED2E25066A004FD753 /* FirebaseRemoteConfigInterop-appletvsimulator.txt */,
+				2D173DEE2E25066A004FD753 /* FirebaseRemoteConfigInterop-catalyst.txt */,
+				2D173DEF2E25066A004FD753 /* FirebaseRemoteConfigInterop-iphoneos.txt */,
+				2D173DF02E25066A004FD753 /* FirebaseRemoteConfigInterop-iphonesimulator.txt */,
+				2D173DF12E25066A004FD753 /* FirebaseRemoteConfigInterop-macosx.txt */,
+				2D173DF22E25066A004FD753 /* FirebaseRemoteConfigInterop-watchos.txt */,
+				2D173DF32E25066A004FD753 /* FirebaseRemoteConfigInterop-watchsimulator.txt */,
+				2D173DF42E25066A004FD753 /* FirebaseSessions-appletvos.txt */,
+				2D173DF52E25066A004FD753 /* FirebaseSessions-appletvsimulator.txt */,
+				2D173DF62E25066A004FD753 /* FirebaseSessions-catalyst.txt */,
+				2D173DF72E25066A004FD753 /* FirebaseSessions-iphoneos.txt */,
+				2D173DF82E25066A004FD753 /* FirebaseSessions-iphonesimulator.txt */,
+				2D173DF92E25066A004FD753 /* FirebaseSessions-macosx.txt */,
+				2D173DFA2E25066A004FD753 /* FirebaseSessions-watchos.txt */,
+				2D173DFB2E25066A004FD753 /* FirebaseSessions-watchsimulator.txt */,
+				2D173DFC2E25066A004FD753 /* FirebaseSharedSwift-appletvos.txt */,
+				2D173DFD2E25066A004FD753 /* FirebaseSharedSwift-appletvsimulator.txt */,
+				2D173DFE2E25066A004FD753 /* FirebaseSharedSwift-catalyst.txt */,
+				2D173DFF2E25066A004FD753 /* FirebaseSharedSwift-iphoneos.txt */,
+				2D173E002E25066A004FD753 /* FirebaseSharedSwift-iphonesimulator.txt */,
+				2D173E012E25066A004FD753 /* FirebaseSharedSwift-macosx.txt */,
+				2D173E022E25066A004FD753 /* FirebaseSharedSwift-watchos.txt */,
+				2D173E032E25066A004FD753 /* FirebaseSharedSwift-watchsimulator.txt */,
+				2D173E042E25066A004FD753 /* FirebaseStorage-appletvos.txt */,
+				2D173E052E25066A004FD753 /* FirebaseStorage-appletvsimulator.txt */,
+				2D173E062E25066A004FD753 /* FirebaseStorage-catalyst.txt */,
+				2D173E072E25066A004FD753 /* FirebaseStorage-iphoneos.txt */,
+				2D173E082E25066A004FD753 /* FirebaseStorage-iphonesimulator.txt */,
+				2D173E092E25066A004FD753 /* FirebaseStorage-macosx.txt */,
+				2D173E0A2E25066A004FD753 /* FirebaseStorage-watchos.txt */,
+				2D173E0B2E25066A004FD753 /* FirebaseStorage-watchsimulator.txt */,
+				2D173E0C2E25066A004FD753 /* FirebaseVertexAI-appletvos.txt */,
+				2D173E0D2E25066A004FD753 /* FirebaseVertexAI-appletvsimulator.txt */,
+				2D173E0E2E25066A004FD753 /* FirebaseVertexAI-catalyst.txt */,
+				2D173E0F2E25066A004FD753 /* FirebaseVertexAI-iphoneos.txt */,
+				2D173E102E25066A004FD753 /* FirebaseVertexAI-iphonesimulator.txt */,
+				2D173E112E25066A004FD753 /* FirebaseVertexAI-macosx.txt */,
+				2D173E122E25066A004FD753 /* FirebaseVertexAI-watchos.txt */,
+				2D173E132E25066A004FD753 /* FirebaseVertexAI-watchsimulator.txt */,
+				2D173E142E25066A004FD753 /* GoogleDataTransport-appletvos.txt */,
+				2D173E152E25066A004FD753 /* GoogleDataTransport-appletvsimulator.txt */,
+				2D173E162E25066A004FD753 /* GoogleDataTransport-catalyst.txt */,
+				2D173E172E25066A004FD753 /* GoogleDataTransport-iphoneos.txt */,
+				2D173E182E25066A004FD753 /* GoogleDataTransport-iphonesimulator.txt */,
+				2D173E192E25066A004FD753 /* GoogleDataTransport-macosx.txt */,
+				2D173E1A2E25066A004FD753 /* GoogleDataTransport-watchos.txt */,
+				2D173E1B2E25066A004FD753 /* GoogleDataTransport-watchsimulator.txt */,
+				2D173E1C2E25066A004FD753 /* GoogleSignIn-catalyst.txt */,
+				2D173E1D2E25066A004FD753 /* GoogleSignIn-iphoneos.txt */,
+				2D173E1E2E25066A004FD753 /* GoogleSignIn-iphonesimulator.txt */,
+				2D173E1F2E25066A004FD753 /* GoogleUtilities-appletvos.txt */,
+				2D173E202E25066A004FD753 /* GoogleUtilities-appletvsimulator.txt */,
+				2D173E212E25066A004FD753 /* GoogleUtilities-catalyst.txt */,
+				2D173E222E25066A004FD753 /* GoogleUtilities-iphoneos.txt */,
+				2D173E232E25066A004FD753 /* GoogleUtilities-iphonesimulator.txt */,
+				2D173E242E25066A004FD753 /* GoogleUtilities-macosx.txt */,
+				2D173E252E25066A004FD753 /* GoogleUtilities-watchos.txt */,
+				2D173E262E25066A004FD753 /* GoogleUtilities-watchsimulator.txt */,
+				2D173E272E25066A004FD753 /* gRPC-C++-appletvos.txt */,
+				2D173E282E25066A004FD753 /* gRPC-C++-appletvsimulator.txt */,
+				2D173E292E25066A004FD753 /* gRPC-C++-catalyst.txt */,
+				2D173E2A2E25066A004FD753 /* gRPC-C++-iphoneos.txt */,
+				2D173E2B2E25066A004FD753 /* gRPC-C++-iphonesimulator.txt */,
+				2D173E2C2E25066A004FD753 /* gRPC-C++-macosx.txt */,
+				2D173E2D2E25066A004FD753 /* gRPC-Core-appletvos.txt */,
+				2D173E2E2E25066A004FD753 /* gRPC-Core-appletvsimulator.txt */,
+				2D173E2F2E25066A004FD753 /* gRPC-Core-catalyst.txt */,
+				2D173E302E25066A004FD753 /* gRPC-Core-iphoneos.txt */,
+				2D173E312E25066A004FD753 /* gRPC-Core-iphonesimulator.txt */,
+				2D173E322E25066A004FD753 /* gRPC-Core-macosx.txt */,
+				2D173E332E25066A004FD753 /* GTMAppAuth-catalyst.txt */,
+				2D173E342E25066A004FD753 /* GTMAppAuth-iphoneos.txt */,
+				2D173E352E25066A004FD753 /* GTMAppAuth-iphonesimulator.txt */,
+				2D173E362E25066A004FD753 /* GTMSessionFetcher-appletvos.txt */,
+				2D173E372E25066A004FD753 /* GTMSessionFetcher-appletvsimulator.txt */,
+				2D173E382E25066A004FD753 /* GTMSessionFetcher-catalyst.txt */,
+				2D173E392E25066A004FD753 /* GTMSessionFetcher-iphoneos.txt */,
+				2D173E3A2E25066A004FD753 /* GTMSessionFetcher-iphonesimulator.txt */,
+				2D173E3B2E25066A004FD753 /* GTMSessionFetcher-macosx.txt */,
+				2D173E3C2E25066A004FD753 /* GTMSessionFetcher-watchos.txt */,
+				2D173E3D2E25066A004FD753 /* GTMSessionFetcher-watchsimulator.txt */,
+				2D173E3E2E25066A004FD753 /* leveldb-library-appletvos.txt */,
+				2D173E3F2E25066A004FD753 /* leveldb-library-appletvsimulator.txt */,
+				2D173E402E25066A004FD753 /* leveldb-library-catalyst.txt */,
+				2D173E412E25066A004FD753 /* leveldb-library-iphoneos.txt */,
+				2D173E422E25066A004FD753 /* leveldb-library-iphonesimulator.txt */,
+				2D173E432E25066A004FD753 /* leveldb-library-macosx.txt */,
+				2D173E442E25066A004FD753 /* nanopb-appletvos.txt */,
+				2D173E452E25066A004FD753 /* nanopb-appletvsimulator.txt */,
+				2D173E462E25066A004FD753 /* nanopb-catalyst.txt */,
+				2D173E472E25066A004FD753 /* nanopb-iphoneos.txt */,
+				2D173E482E25066A004FD753 /* nanopb-iphonesimulator.txt */,
+				2D173E492E25066A004FD753 /* nanopb-macosx.txt */,
+				2D173E4A2E25066A004FD753 /* nanopb-watchos.txt */,
+				2D173E4B2E25066A004FD753 /* nanopb-watchsimulator.txt */,
+				2D173E4C2E25066A004FD753 /* PromisesObjC-appletvos.txt */,
+				2D173E4D2E25066A004FD753 /* PromisesObjC-appletvsimulator.txt */,
+				2D173E4E2E25066A004FD753 /* PromisesObjC-catalyst.txt */,
+				2D173E4F2E25066A004FD753 /* PromisesObjC-iphoneos.txt */,
+				2D173E502E25066A004FD753 /* PromisesObjC-iphonesimulator.txt */,
+				2D173E512E25066A004FD753 /* PromisesObjC-macosx.txt */,
+				2D173E522E25066A004FD753 /* PromisesObjC-watchos.txt */,
+				2D173E532E25066A004FD753 /* PromisesObjC-watchsimulator.txt */,
+				2D173E542E25066A004FD753 /* PromisesSwift-appletvos.txt */,
+				2D173E552E25066A004FD753 /* PromisesSwift-appletvsimulator.txt */,
+				2D173E562E25066A004FD753 /* PromisesSwift-catalyst.txt */,
+				2D173E572E25066A004FD753 /* PromisesSwift-iphoneos.txt */,
+				2D173E582E25066A004FD753 /* PromisesSwift-iphonesimulator.txt */,
+				2D173E592E25066A004FD753 /* PromisesSwift-macosx.txt */,
+				2D173E5A2E25066A004FD753 /* PromisesSwift-watchos.txt */,
+				2D173E5B2E25066A004FD753 /* PromisesSwift-watchsimulator.txt */,
+				2D173E5C2E25066A004FD753 /* RecaptchaInterop-catalyst.txt */,
+				2D173E5D2E25066A004FD753 /* RecaptchaInterop-iphoneos.txt */,
+				2D173E5E2E25066A004FD753 /* RecaptchaInterop-iphonesimulator.txt */,
+				2D173E5F2E25066A004FD753 /* SwiftProtobuf-appletvos.txt */,
+				2D173E602E25066A004FD753 /* SwiftProtobuf-appletvsimulator.txt */,
+				2D173E612E25066A004FD753 /* SwiftProtobuf-catalyst.txt */,
+				2D173E622E25066A004FD753 /* SwiftProtobuf-iphoneos.txt */,
+				2D173E632E25066A004FD753 /* SwiftProtobuf-iphonesimulator.txt */,
+				2D173E642E25066A004FD753 /* SwiftProtobuf-macosx.txt */,
+				2D173E652E25066A004FD753 /* SwiftProtobuf-watchos.txt */,
+				2D173E662E25066A004FD753 /* SwiftProtobuf-watchsimulator.txt */,
+			);
+			path = build_logs;
+			sourceTree = "<group>";
+		};
+		2D173E922E25066A004FD753 /* 11.15.0 */ = {
+			isa = PBXGroup;
+			children = (
+				2D173E682E25066A004FD753 /* FirebaseABTesting-7257632ed78c5c4c.zip */,
+				2D173E692E25066A004FD753 /* FirebaseABTestingBinary.json */,
+				2D173E6A2E25066A004FD753 /* FirebaseAdMobBinary.json */,
+				2D173E6B2E25066A004FD753 /* FirebaseAI-ba1237ee5b7a5baa.zip */,
+				2D173E6C2E25066A004FD753 /* FirebaseAIBinary.json */,
+				2D173E6D2E25066A004FD753 /* FirebaseAnalytics-9a411c918346c8ea.zip */,
+				2D173E6E2E25066A004FD753 /* FirebaseAnalyticsBinary.json */,
+				2D173E6F2E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversion-f03a6283e3772033.zip */,
+				2D173E702E25066A004FD753 /* FirebaseAnalyticsOnDeviceConversionBinary.json */,
+				2D173E712E25066A004FD753 /* FirebaseAppCheck-b0eff608f83f7797.zip */,
+				2D173E722E25066A004FD753 /* FirebaseAppCheckBinary.json */,
+				2D173E732E25066A004FD753 /* FirebaseAppDistribution-4a78ab72ee174613.zip */,
+				2D173E742E25066A004FD753 /* FirebaseAppDistributionBinary.json */,
+				2D173E752E25066A004FD753 /* FirebaseAuth-d6d3264758ea5270.zip */,
+				2D173E762E25066A004FD753 /* FirebaseAuthBinary.json */,
+				2D173E772E25066A004FD753 /* FirebaseCrashlytics-6c0391d0cb3de2ad.zip */,
+				2D173E782E25066A004FD753 /* FirebaseCrashlyticsBinary.json */,
+				2D173E792E25066A004FD753 /* FirebaseDatabase-d0e4e892d5ecbffb.zip */,
+				2D173E7A2E25066A004FD753 /* FirebaseDatabaseBinary.json */,
+				2D173E7B2E25066A004FD753 /* FirebaseDynamicLinks-e46c284d68552c13.zip */,
+				2D173E7C2E25066A004FD753 /* FirebaseDynamicLinksBinary.json */,
+				2D173E7D2E25066A004FD753 /* FirebaseFirestore-f374bf8c4f273d0d.zip */,
+				2D173E7E2E25066A004FD753 /* FirebaseFirestoreBinary.json */,
+				2D173E7F2E25066A004FD753 /* FirebaseFunctions-74f3deb4b5a5bb48.zip */,
+				2D173E802E25066A004FD753 /* FirebaseFunctionsBinary.json */,
+				2D173E812E25066A004FD753 /* FirebaseGoogleSignInBinary.json */,
+				2D173E822E25066A004FD753 /* FirebaseInAppMessaging-00c827248fb20a3b.zip */,
+				2D173E832E25066A004FD753 /* FirebaseInAppMessagingBinary.json */,
+				2D173E842E25066A004FD753 /* FirebaseMessaging-faace3ba9827c455.zip */,
+				2D173E852E25066A004FD753 /* FirebaseMessagingBinary.json */,
+				2D173E862E25066A004FD753 /* FirebaseMLModelDownloader-c053b5792960df37.zip */,
+				2D173E872E25066A004FD753 /* FirebaseMLModelDownloaderBinary.json */,
+				2D173E882E25066A004FD753 /* FirebasePerformance-1ea9f0b8e5cef2d2.zip */,
+				2D173E892E25066A004FD753 /* FirebasePerformanceBinary.json */,
+				2D173E8A2E25066A004FD753 /* FirebaseRemoteConfig-df265f79f252c97e.zip */,
+				2D173E8B2E25066A004FD753 /* FirebaseRemoteConfigBinary.json */,
+				2D173E8C2E25066A004FD753 /* FirebaseStorage-af8b7d731da47f13.zip */,
+				2D173E8D2E25066A004FD753 /* FirebaseStorageBinary.json */,
+				2D173E8E2E25066A004FD753 /* FirebaseVertexAI-1063ba053684ed1a.zip */,
+				2D173E8F2E25066A004FD753 /* FirebaseVertexAIBinary.json */,
+				2D173E902E25066A004FD753 /* Google-Mobile-Ads-SDK-030b504727644b39.zip */,
+				2D173E912E25066A004FD753 /* GoogleSignIn-eebded978006aa85.zip */,
+			);
+			path = 11.15.0;
+			sourceTree = "<group>";
+		};
+		2D173E932E25066A004FD753 /* carthage */ = {
+			isa = PBXGroup;
+			children = (
+				2D173E922E25066A004FD753 /* 11.15.0 */,
+			);
+			path = carthage;
+			sourceTree = "<group>";
+		};
+		2D173E942E25066A004FD753 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				2D173D312E25066A004FD753 /* 11_15_0 */,
+				2D173E672E25066A004FD753 /* build_logs */,
+				2D173E932E25066A004FD753 /* carthage */,
+			);
+			name = Firebase;
+			path = ../../Downloads/Firebase;
+			sourceTree = "<group>";
+		};
 		2D4201A62E1D244A00201ECD = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +1601,7 @@
 				2D4201BF2E1D244B00201ECD /* AnimalMatchGameTests */,
 				2D4201C92E1D244B00201ECD /* AnimalMatchGameUITests */,
 				2D4201B02E1D244A00201ECD /* Products */,
+				485EA11AB476828A3A78AE69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +1613,19 @@
 				2D4201C62E1D244B00201ECD /* AnimalMatchGameUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		485EA11AB476828A3A78AE69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D173D2F2E25065C004FD753 /* Firebase */,
+				2D173E942E25066A004FD753 /* Firebase */,
+				2D173BCA2E25064D004FD753 /* firebase-ios-sdk-11.15.0 */,
+				587CF3DF8525D3169C8AB2AF /* Pods_AnimalMatchGame.framework */,
+				784CD6985BCE75DC0C9155EE /* Pods_AnimalMatchGame_AnimalMatchGameUITests.framework */,
+				C4FBA990BE324B1132DABDB9 /* Pods_AnimalMatchGameTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +1648,11 @@
 			);
 			name = AnimalMatchGame;
 			packageProductDependencies = (
+				2D0715F82E250FA300464607 /* FirebaseAuth */,
+				2D0715FA2E250FA900464607 /* FirebaseCore */,
+				2D0715FC2E250FC000464607 /* FirebaseFirestore */,
+				2D0715FE2E250FC900464607 /* FirebaseStorage */,
+				2D8FC6272E25367600B75A5C /* FirebaseAnalytics */,
 			);
 			productName = AnimalMatchGame;
 			productReference = 2D4201AF2E1D244A00201ECD /* AnimalMatchGame.app */;
@@ -121,6 +1662,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D4201D32E1D244B00201ECD /* Build configuration list for PBXNativeTarget "AnimalMatchGameTests" */;
 			buildPhases = (
+				403F3DB2D4D67FD375A550DE /* [CP] Check Pods Manifest.lock */,
 				2D4201B82E1D244B00201ECD /* Sources */,
 				2D4201B92E1D244B00201ECD /* Frameworks */,
 				2D4201BA2E1D244B00201ECD /* Resources */,
@@ -134,8 +1676,6 @@
 				2D4201BF2E1D244B00201ECD /* AnimalMatchGameTests */,
 			);
 			name = AnimalMatchGameTests;
-			packageProductDependencies = (
-			);
 			productName = AnimalMatchGameTests;
 			productReference = 2D4201BC2E1D244B00201ECD /* AnimalMatchGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +1684,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D4201D62E1D244B00201ECD /* Build configuration list for PBXNativeTarget "AnimalMatchGameUITests" */;
 			buildPhases = (
+				8BB0EB500BD6260FB7C7B8FA /* [CP] Check Pods Manifest.lock */,
 				2D4201C22E1D244B00201ECD /* Sources */,
 				2D4201C32E1D244B00201ECD /* Frameworks */,
 				2D4201C42E1D244B00201ECD /* Resources */,
+				966A5F0C35EE0562900A7FA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +1699,6 @@
 				2D4201C92E1D244B00201ECD /* AnimalMatchGameUITests */,
 			);
 			name = AnimalMatchGameUITests;
-			packageProductDependencies = (
-			);
 			productName = AnimalMatchGameUITests;
 			productReference = 2D4201C62E1D244B00201ECD /* AnimalMatchGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -195,6 +1735,9 @@
 			);
 			mainGroup = 2D4201A62E1D244A00201ECD;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2D173E952E25074D004FD753 /* XCLocalSwiftPackageReference "../../Downloads/firebase-ios-sdk-11.15.0" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2D4201B02E1D244A00201ECD /* Products */;
 			projectDirPath = "";
@@ -230,6 +1773,74 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		403F3DB2D4D67FD375A550DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalMatchGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB0EB500BD6260FB7C7B8FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalMatchGame-AnimalMatchGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966A5F0C35EE0562900A7FA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalMatchGame-AnimalMatchGameUITests/Pods-AnimalMatchGame-AnimalMatchGameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalMatchGame-AnimalMatchGameUITests/Pods-AnimalMatchGame-AnimalMatchGameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimalMatchGame-AnimalMatchGameUITests/Pods-AnimalMatchGame-AnimalMatchGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D4201AB2E1D244A00201ECD /* Sources */ = {
@@ -400,6 +2011,7 @@
 				DEVELOPMENT_TEAM = 52C4YANH97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalMatchGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +2040,7 @@
 				DEVELOPMENT_TEAM = 52C4YANH97;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimalMatchGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +2171,36 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2D173E952E25074D004FD753 /* XCLocalSwiftPackageReference "../../Downloads/firebase-ios-sdk-11.15.0" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/firebase-ios-sdk-11.15.0";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D0715F82E250FA300464607 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		2D0715FA2E250FA900464607 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCore;
+		};
+		2D0715FC2E250FC000464607 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseFirestore;
+		};
+		2D0715FE2E250FC900464607 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseStorage;
+		};
+		2D8FC6272E25367600B75A5C /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D4201A72E1D244A00201ECD /* Project object */;
 }
