@@ -1,3 +1,11 @@
+//
+//  GameView.swift
+//  AnimalMatchGame
+//
+//  Created by Rabia Çakıcı on 21.07.2025.
+//
+
+import Foundation
 import SwiftUI
 
 struct GameView: View {
@@ -20,4 +28,3 @@ struct GameView: View {
 #Preview {
     GameView()
 }
-

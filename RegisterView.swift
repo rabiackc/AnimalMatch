@@ -2,7 +2,7 @@
 //  RegisterView.swift
 //  AnimalMatchGame
 //
-//  Created by Rabia Çakıcı on 8.07.2025.
+//  Created by Rabia Çakıcı on 21.07.2025.
 //
 
 import SwiftUI
